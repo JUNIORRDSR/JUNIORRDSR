@@ -1,177 +1,103 @@
-<div align="center">
-  
-# 👋 Hola, Soy Jorge Solano
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/banner.svg"><img src="assets/light/banner.svg" width="100%" alt="Jorge Solano. Desarrollador full stack en Barranquilla, Colombia. Desarrollador en GLocation desde noviembre de 2025. Ingeniería de Sistemas en la Universidad Libre."></picture>
 
-### Estudiante de Ingeniería de Sistemas | Desarrollador Full Stack | Aprendiz Constante
+<p><picture><source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=IBM+Plex+Mono&weight=500&size=15&duration=2200&pause=1200&color=FF6A2B&width=640&height=28&lines=ESPECIALIDAD%3A+APPS+M%C3%93VILES+CON+FLUTTER+Y+KOTLIN;ESPECIALIDAD%3A+BACKENDS+EN+PYTHON+Y+TYPESCRIPT;ESPECIALIDAD%3A+VISI%C3%93N+POR+COMPUTADOR+CON+YOLO;ESPECIALIDAD%3A+INFRAESTRUCTURA+EN+GOOGLE+CLOUD;ESPECIALIDAD%3A+HERRAMIENTAS+PARA+AGENTES+DE+IA"><img src="https://readme-typing-svg.demolab.com?font=IBM+Plex+Mono&weight=500&size=15&duration=2200&pause=1200&color=C2410C&width=640&height=28&lines=ESPECIALIDAD%3A+APPS+M%C3%93VILES+CON+FLUTTER+Y+KOTLIN;ESPECIALIDAD%3A+BACKENDS+EN+PYTHON+Y+TYPESCRIPT;ESPECIALIDAD%3A+VISI%C3%93N+POR+COMPUTADOR+CON+YOLO;ESPECIALIDAD%3A+INFRAESTRUCTURA+EN+GOOGLE+CLOUD;ESPECIALIDAD%3A+HERRAMIENTAS+PARA+AGENTES+DE+IA"  alt="Especialidades: apps móviles con Flutter y Kotlin, backends en Python y TypeScript, visión por computador con YOLO, infraestructura en Google Cloud y herramientas para agentes de IA."></picture></p>
 
-[![GitHub followers](https://img.shields.io/github/followers/JUNIORRDSR?label=Follow&style=social)](https://github.com/JUNIORRDSR)
-[![Profile Views](https://komarev.com/ghpvc/?username=JUNIORRDSR&color=blueviolet)](https://github.com/JUNIORRDSR)
+<p><a href="https://www.linkedin.com/in/jorge-solano-606276209"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/btn-linkedin.svg"><img src="assets/light/btn-linkedin.svg" height="40" alt="LinkedIn"></picture></a> <a href="mailto:jorgej-solanor@unilibre.edu.co"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/btn-correo.svg"><img src="assets/light/btn-correo.svg" height="40" alt="Correo"></picture></a></p>
 
-</div>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/h-resumen.svg"><img src="assets/light/h-resumen.svg" width="100%" alt="Sección 01: resumen del perfil"></picture>
 
----
+Estudio Ingeniería de Sistemas en la Universidad Libre de Barranquilla y desde noviembre de 2025 trabajo como desarrollador en GLocation. Por fuera del trabajo hago apps móviles en Flutter y Kotlin, backends en Python y TypeScript sobre Google Cloud, y visión por computador en el Semillero TI de la universidad.
 
-## 🚀 Sobre Mí
+También armo herramientas para trabajar con agentes de código: plugins y skills para Claude Code y Antigravity, y servidores MCP.
 
-Soy estudiante de **Ingeniería de Sistemas** de la Universidad Libre (2021-Actualidad), con pasión por el desarrollo de software y la resolución de problemas mediante tecnología. Me especializo en crear aplicaciones web completas utilizando **Python** y **JavaScript**, con experiencia tanto en frontend como en backend.
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/h-proyectos.svg"><img src="assets/light/h-proyectos.svg" width="100%" alt="Sección 02: proyectos destacados"></picture>
 
-- 🎓 Cursando Ingeniería de Sistemas en la Universidad Libre
-- 💻 Desarrollador Full Stack con dominio de Java, Python, JavaScript, HTML y CSS
-- ☁️ Certificado en Google Cloud Platform y servicios cloud
-- 🛠️ Experiencia en proyectos prácticos: e-commerce, billeteras digitales, sistemas de gestión
-- 🔐 Conocimientos en ciberseguridad y redes seguras
-- 🌱 Aprendiendo continuamente nuevas tecnologías y mejores prácticas
-- 🎯 Objetivo: Desarrollar soluciones tecnológicas eficientes e innovadoras
-- 📚 Interesado en bases de datos, desarrollo web, cloud computing y arquitectura de software
+<p>
+<a href="https://github.com/JUNIORRDSR/VerifiClean"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/card-verificlean.svg"><img src="assets/light/card-verificlean.svg" width="49%" alt="VerifiClean: App Android y API que comprueban que el supervisor de aseo sí estuvo en la sede del cliente. Kotlin, Compose, Node.js, TS. Estado: En desarrollo."></picture></a> <a href="https://github.com/JUNIORRDSR/deteccion-enfermedades-mango-cascada"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/card-mango.svg"><img src="assets/light/card-mango.svg" width="49%" alt="Enfermedades del mango: Cascada de detector y clasificador, con auditoría de fuga de datos. Semillero TI, Universidad Libre. Python, YOLO26n, YOLO11n-cls. Estado: Artículo, versión revisada."></picture></a>
+<a href="https://github.com/DevsJJA/CrediRuta"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/card-crediruta.svg"><img src="assets/light/card-crediruta.svg" width="49%" alt="CrediRuta: Cartera de microcrédito para rutas de cobro. Funciona sin conexión y sincroniza después. Flutter, Dart, drift (SQLite). Estado: En desarrollo, equipo DevsJJA."></picture></a> <a href="https://github.com/LeoBarraza0/HealthByte"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/card-healthbyte.svg"><img src="assets/light/card-healthbyte.svg" width="49%" alt="HealthByte: Checklist de seguridad quirúrgica que se llena por voz, con la cámara como segundo conteo. React, Node.js, Vertex AI. Estado: En desarrollo, con @LeoBarraza0."></picture></a>
+<a href="https://github.com/JUNIORRDSR/Antigravity-CLI-Skill"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/card-antigravity-skill.svg"><img src="assets/light/card-antigravity-skill.svg" width="49%" alt="Antigravity CLI Skill: Delega tareas de Claude Code a Antigravity CLI y les hace seguimiento hasta que terminan. JavaScript. Estado: Instalable con /plugin."></picture></a> <a href="https://github.com/JUNIORRDSR/Antigravity-safe-swicht"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/card-agy-auto-switch.svg"><img src="assets/light/card-agy-auto-switch.svg" width="49%" alt="agy-auto-switch: Cambia de cuenta de Antigravity al agotar la cuota y retoma la tarea sin perder el hilo. PowerShell 5.1. Estado: Disponible."></picture></a>
+</p>
 
----
+<details>
+<summary><b>VerifiClean:</b> por qué el servidor nunca rechaza una evidencia</summary>
+<br>
 
-## 🛠️ Stack Tecnológico
+Cada evidencia se verifica en el servidor: distancia a la sede, hash SHA-256 de la foto, Play Integrity, un nonce atado a la visita, detección de GPS simulado, el checklist contra el asignado y la hora puesta por el servidor. Una evidencia sospechosa se guarda igual, con sus motivos, y aparece en el panel del administrador. Si la API respondiera con un error, quien quiera hacer trampa podría cambiar un parámetro y reintentar hasta pasar. Por la misma razón el supervisor nunca ve el veredicto de sus propias evidencias.
 
-### Lenguajes de Programación
-![Java](https://img.shields.io/badge/-Java-007396?style=flat-square&logo=openjdk&logoColor=white)
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
-![Shell](https://img.shields.io/badge/-Shell-4EAA25?style=flat-square&logo=gnu-bash&logoColor=white)
+</details>
 
-### Frontend Development
-![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![Bootstrap](https://img.shields.io/badge/-Bootstrap-7952B3?style=flat-square&logo=bootstrap&logoColor=white)
+<details>
+<summary><b>Enfermedades del mango:</b> qué hay detrás del 0,909 de exactitud</summary>
+<br>
 
-### Backend Development
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Django](https://img.shields.io/badge/-Django-092E20?style=flat-square&logo=django&logoColor=white)
-![Flask](https://img.shields.io/badge/-Flask-000000?style=flat-square&logo=flask&logoColor=white)
+Es el código y la evidencia del artículo *Detección y clasificación automatizada de enfermedades fitopatológicas en mango: un enfoque de arquitectura en cascada*, que escribí con Villa Bastidas y Molina-Cárdenas. Un detector YOLO26n encuentra los frutos y un clasificador YOLO11n-cls diagnostica cada uno: antracnosis, cancro bacteriano, costras, podredumbre del extremo del tallo o sano.
 
-### Cloud & DevOps
-![Google Cloud](https://img.shields.io/badge/-Google%20Cloud-4285F4?style=flat-square&logo=google-cloud&logoColor=white)
-![Git](https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=github&logoColor=white)
+Antes de entrenar auditamos la fuga de datos: imágenes repetidas o casi repetidas entre entrenamiento y prueba. Con eso el conjunto se volvió a partir por grupos de origen. Cada imagen quedó registrada con su SHA-256 en manifiestos congelados, el protocolo se fijó antes de abrir la partición de prueba y los intervalos de confianza salen de un bootstrap por grupos. El repositorio también deja escritos los límites: son evaluaciones internas sobre imágenes publicadas y el sistema no se validó en campo. El prototipo anterior, con demo por webcam, está en [Mango-vision](https://github.com/JUNIORRDSR/Mango-vision).
 
-### Bases de Datos
-![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![MySQL](https://img.shields.io/badge/-MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
-![SQLite](https://img.shields.io/badge/-SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
+</details>
 
-### Herramientas & Otros
-![VS Code](https://img.shields.io/badge/-VS%20Code-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white)
-![Cisco](https://img.shields.io/badge/-Cisco-1BA0D7?style=flat-square&logo=cisco&logoColor=white)
+<details>
+<summary><b>Más proyectos</b> de 2024 y 2025</summary>
+<br>
 
----
+| Proyecto | Qué es | Stack |
+|---|---|---|
+| [CrediRuta-Design](https://github.com/JUNIORRDSR/CrediRuta-Design) | Contratos visuales y prototipo navegable de CrediRuta, 38 pantallas | HTML, CSS |
+| [CLAUDEMAX](https://github.com/Curcolor/CLAUDEMAX) | Entorno completo para Claude Code; colaboro con [@Curcolor](https://github.com/Curcolor) | JavaScript, Bash |
+| [INKLU AI](https://github.com/JUNIORRDSR/INKLU-AI) | Conecta personas con discapacidad con empresas inclusivas | Python, JavaScript |
+| [Incapacidades](https://github.com/JUNIORRDSR/Incapacidades) | Gestión digital de incapacidades laborales y pensiones | Next.js, NestJS, PostgreSQL, MongoDB |
+| [ProjectInsight](https://github.com/JUNIORRDSR/Prueba-Tecnica) | Panel de proyectos con API REST y resumen generado por IA | Node.js, Express, Prisma, PostgreSQL |
+| [ProntoApp](https://github.com/Curcolor/ProntoApp-) | Pedidos en tiempo real para negocios, con bot de Telegram | Flutter, Python |
+| [Salas de cine](https://github.com/JUNIORRDSR/SISTEMAS-SALAS-DE-CINE) | Control de taquillas, con [cliente](https://github.com/JUNIORRDSR/Proyecto-Cine-Cliente) y [backend](https://github.com/JUNIORRDSR/Proyecto-Cine-Backend) | JavaScript |
+| [Traductor](https://github.com/JUNIORRDSR/proyecto-fullstack) | Traductor español-inglés con frontend y backend | JavaScript |
+| [Walli Wallet](https://github.com/Curcolor/WALLI_WALLET) | Billetera digital: transferencias, depósitos, retiros y pagos | Python |
+| [CommUnity](https://github.com/Curcolor/COMMUNITY) | Reúne recursos de ayuda gratuita en un solo lugar | Python |
+| [Luxora Couture](https://github.com/JUNIORRDSR/ecommerce---Luxora-couture) | E-commerce del examen de TalentoTech Caribe | Python |
+| [ImageToMatrix](https://github.com/JUNIORRDSR/ImageToMatrix) | Convierte imágenes en matrices para entrenar CNN | Python |
 
-## 📊 Estadísticas de GitHub
+</details>
 
-<div align="center">
-  
-![JUNIORRDSR's GitHub Stats](https://github-readme-stats.vercel.app/api?username=JUNIORRDSR&show_icons=true&theme=radical&hide_border=true&count_private=true)
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/h-tecnologias.svg"><img src="assets/light/h-tecnologias.svg" width="100%" alt="Sección 03: tecnologías"></picture>
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=JUNIORRDSR&layout=compact&theme=radical&hide_border=true)
+| Ítem | Categoría | Componentes | Cant. |
+|:---:|---|---|:---:|
+| 01 | Móvil | `Flutter` `Dart` `Kotlin` `Jetpack Compose` | 4 |
+| 02 | Backend | `Python` `FastAPI` `TypeScript` `Node.js` `Express` `NestJS` `Django` `Flask` | 8 |
+| 03 | Web | `Next.js` `React` `Vite` `Tailwind CSS` `Astro` | 5 |
+| 04 | Datos | `PostgreSQL` `Prisma` `Firestore` `MongoDB` `Redis` `SQLite` | 6 |
+| 05 | Nube | `Google Cloud` `Cloud Run` `Docker` `Terraform` `GitHub Actions` | 5 |
+| 06 | IA y visión | `YOLO` `PyTorch` `OpenCV` `Gemini` `LangChain` `Kaggle` | 6 |
+| 07 | Pruebas | `Playwright` `k6` `pytest` | 3 |
+| 08 | Agentes | `Claude Code` `MCP` `Obsidian` | 3 |
+| | | **Total de componentes** | **40** |
 
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=JUNIORRDSR&theme=radical&hide_border=true)
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/h-actividad.svg"><img src="assets/light/h-actividad.svg" width="100%" alt="Sección 04: actividad"></picture>
 
-</div>
+<p><picture><source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=JUNIORRDSR&show_icons=true&count_private=true&include_all_commits=true&hide=contribs&locale=es&custom_title=Registro%20en%20GitHub&border_radius=0&bg_color=0D1117&border_color=30363D&title_color=E6EDF3&icon_color=FF6A2B&text_color=E6EDF3&ring_color=FF6A2B"><img src="https://github-readme-stats.vercel.app/api?username=JUNIORRDSR&show_icons=true&count_private=true&include_all_commits=true&hide=contribs&locale=es&custom_title=Registro%20en%20GitHub&border_radius=0&bg_color=FFFFFF&border_color=D0D7DE&title_color=1F2328&icon_color=FF4F00&text_color=1F2328&ring_color=FF4F00" height="150" alt="Estadísticas de GitHub de Jorge Solano"></picture> <picture><source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=JUNIORRDSR&locale=es&border_radius=0&background=0D1117&border=30363D&stroke=30363D&ring=FF6A2B&fire=FF6A2B&currStreakNum=E6EDF3&sideNums=E6EDF3&currStreakLabel=FF8A50&sideLabels=8B949E&dates=8B949E"><img src="https://streak-stats.demolab.com/?user=JUNIORRDSR&locale=es&border_radius=0&background=FFFFFF&border=D0D7DE&stroke=D0D7DE&ring=FF4F00&fire=FF4F00&currStreakNum=1F2328&sideNums=1F2328&currStreakLabel=C2410C&sideLabels=59636E&dates=59636E" height="150" alt="Racha de contribuciones de Jorge Solano"></picture></p>
 
----
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/JUNIORRDSR/JUNIORRDSR/output/snake-dark.svg"><img src="https://raw.githubusercontent.com/JUNIORRDSR/JUNIORRDSR/output/snake-light.svg" width="100%" alt="Una culebrita recorre el calendario de contribuciones y se come los días con actividad"></picture>
 
-## 🏆 Proyectos Destacados
+<details>
+<summary><b>Formación y certificaciones</b></summary>
+<br>
 
-### 🌟 [INKLU AI](https://github.com/JUNIORRDSR/INKLU-AI)
-**Tecnologías:** Python (48%) | JavaScript (24%) | HTML | CSS
+| Área | Título o certificación | Entidad |
+|---|---|---|
+| Formación | Ingeniería de Sistemas, desde 2021 | Universidad Libre |
+| Formación | Técnico en Sistemas | SENA |
+| Formación | Programación | TalentoTech Caribe |
+| Nube | Google Cloud Foundations | Google Cloud |
+| Nube | Skill badges: Secure Network, Load Balancing, ML APIs, App Dev Environment | Google Cloud |
+| Programación | Fundamentos de Programación | LinkedIn |
+| Programación | Python Essentials 1 | |
+| Ciberseguridad | Cybersecurity Essentials, Introduction to Cybersecurity | Cisco |
+| Inteligencia artificial | IA Generativa | |
+| Comunidad | Miembro | IEEE, IEEE Computer Society |
+| Eventos | RedCOLSI 2025, Barranqui-AI | RedCOLSI, GDG |
+| Emprendimiento | Taller de Emprendimiento, Habilidades Esenciales | ROFÉ |
 
-Aplicación web que ayuda a personas con discapacidades a encontrar empleo, conectándolas con empresas inclusivas y promoviendo la igualdad de oportunidades mediante procesos accesibles y tecnología inteligente.
+</details>
 
-### 🌟 [CommUnity](https://github.com/Curcolor/COMMUNITY)
-**Tecnologías:** Python (28%) | CSS (25%) | JavaScript (25%) | HTML (22%)
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/footer.svg"><img src="assets/light/footer.svg" width="100%" alt=""></picture>
 
-Proyecto que centraliza el acceso a recursos de ayuda gratuita, facilitando la colaboración y el apoyo entre personas y organizaciones.
-
-### 🌟 [Walli Wallet - Billetera Digital](https://github.com/Curcolor/WALLI_WALLET)
-**Tecnologías:** Python (36%) | HTML (26%) | CSS (22%) | JavaScript (14%)
-
-Aplicación web que permite a los usuarios realizar transferencias, depósitos, retiros y pagos de servicios, similar a servicios como Nequi o Daviplata.
-
-### 🌟 [Luxora Couture - Ecommerce](https://github.com/JUNIORRDSR/ecommerce---Luxora-couture)
-**Tecnologías:** Python (43%) | JavaScript (25%) | HTML (22%) | CSS (10%)
-
-Proyecto ecommerce desarrollado como parte de TalentoTech Caribe, implementando un sistema completo de tienda online.
-
-### 🌟 [Sistema de Gestión - Salas de Cine](https://github.com/JUNIORRDSR/SISTEMAS-SALAS-DE-CINE)
-**Tecnologías:** JavaScript (100%)
-
-Sistema de información para control y administración de taquillas en salas de cine.
-
----
-
-## 🎓 Certificaciones & Formación
-
-<div align="center">
-
-### ☁️ Cloud Computing & Google Cloud Platform
-![Google Cloud](https://img.shields.io/badge/Google%20Cloud%20Foundations-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
-![Secure Network](https://img.shields.io/badge/Secure%20Network%20Skill%20Badge-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
-![Load Balancing](https://img.shields.io/badge/Load%20Balancing%20Skill%20Badge-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
-![ML APIs](https://img.shields.io/badge/ML%20APIs%20Skill%20Badge-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
-![App Dev](https://img.shields.io/badge/App%20Dev%20Environment-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
-
-### 💻 Programación & Desarrollo
-![LinkedIn](https://img.shields.io/badge/Fundamentos%20de%20Programación-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)
-![Python](https://img.shields.io/badge/Python%20Essentials%201-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![TalentoTech](https://img.shields.io/badge/Programación%20Básico-FF6B6B?style=for-the-badge&logo=code&logoColor=white)
-
-### 🤖 Inteligencia Artificial
-![AI](https://img.shields.io/badge/IA%20Generativa-FF6F61?style=for-the-badge&logo=openai&logoColor=white)
-
-### 🔐 Ciberseguridad
-![Cisco](https://img.shields.io/badge/Cybersecurity%20Essentials-1BA0D7?style=for-the-badge&logo=cisco&logoColor=white)
-![Cisco](https://img.shields.io/badge/Intro%20to%20Cybersecurity-1BA0D7?style=for-the-badge&logo=cisco&logoColor=white)
-
-### 🏛️ Organizaciones Profesionales
-![IEEE](https://img.shields.io/badge/IEEE%20Member-00629B?style=for-the-badge&logo=ieee&logoColor=white)
-![IEEE CS](https://img.shields.io/badge/IEEE%20Computer%20Society-00629B?style=for-the-badge&logo=ieee&logoColor=white)
-
-### 🚀 Emprendimiento & Desarrollo Personal
-![ROFÉ](https://img.shields.io/badge/Taller%20de%20Emprendimiento-FF9800?style=for-the-badge&logo=rocket&logoColor=white)
-![ROFÉ](https://img.shields.io/badge/Habilidades%20Esenciales-FF9800?style=for-the-badge&logo=star&logoColor=white)
-
-### 🎯 Eventos & Participaciones
-![RedCOLSI](https://img.shields.io/badge/RedCOLSI%202025-6A1B9A?style=for-the-badge&logo=network-wired&logoColor=white)
-![GDG](https://img.shields.io/badge/Barranqui--AI-4285F4?style=for-the-badge&logo=google&logoColor=white)
-
-### 🔧 Formación Técnica
-![SENA](https://img.shields.io/badge/Técnico%20en%20Sistemas%20SENA-39A935?style=for-the-badge&logo=graduation-cap&logoColor=white)
-
-</div>
-
----
-
-## 📫 Conecta Conmigo
-
-<div align="center">
-
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jorge-solano-606276209)
-[![Email](https://img.shields.io/badge/-Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:jorgej-solanor@unilibre.edu.co)
-[![GitHub](https://img.shields.io/badge/-GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/JUNIORRDSR)
-
-</div>
-
----
-
-<div align="center">
-
-### 💬 *"El código es poesía, y cada bug es una oportunidad de aprender."*
-
-</div>
-
----
-
-<div align="center">
-
-**¡Gracias por visitar mi perfil!** 😊
-
-![Footer](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer)
-
-</div>
+<img src="https://komarev.com/ghpvc/?username=JUNIORRDSR&label=visitas&color=FF4F00&style=flat-square" alt="Visitas al perfil">

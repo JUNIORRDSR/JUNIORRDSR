@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="170" height="44" viewBox="0 0 170 44" role="img" aria-label="Linkedin"><title>Linkedin</title><style>
+.u{animation:rise .3s cubic-bezier(.23,1,.32,1) backwards}
+.f{animation:fade .3s cubic-bezier(.23,1,.32,1) backwards}
+.d{stroke-dasharray:1;animation:draw .7s cubic-bezier(.23,1,.32,1) backwards}
+.p{stroke-dasharray:1;animation:draw .9s cubic-bezier(.77,0,.175,1) backwards}
+.cur{transform-box:fill-box;transform-origin:right;transform:scaleX(0);animation:curtain .7s cubic-bezier(.23,1,.32,1) backwards}
+.cursor{opacity:0;animation:cursor .7s cubic-bezier(.23,1,.32,1) backwards}
+.pulse{animation:pulse 2.4s cubic-bezier(.77,0,.175,1) infinite}
+.led{animation:led 4s steps(1,end) 3s infinite}
+@keyframes rise{from{opacity:0;transform:translateY(8px)}}
+@keyframes fade{from{opacity:0}}
+@keyframes draw{from{stroke-dashoffset:1}}
+@keyframes curtain{from{transform:scaleX(1)}}
+@keyframes cursor{from{opacity:1;transform:translateX(0)}to{opacity:1;transform:translateX(592px)}}
+@keyframes pulse{50%{opacity:.25}}
+@keyframes led{0%{opacity:1}5%{opacity:.15}10%{opacity:1}15%{opacity:.15}20%{opacity:1}}
+@media (prefers-reduced-motion:reduce){.u{animation-name:fade}.d,.p,.cur,.cursor,.pulse,.led{animation:none}}
+</style><rect x=".75" y=".75" width="168.5" height="42.5" fill="#FFFFFF"/><path class="d" pathLength="1" style="animation-delay:0.60s;animation-duration:.9s" d="M0.8 0.8H169.2V43.2H0.8Z" stroke="#1F2328" stroke-width="1.5" fill="none"/><g class="u" style="animation-delay:0.80s"><path transform="translate(18 13) scale(.75)" fill="#1F2328" d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z"/></g><g class="u" style="animation-delay:0.85s"><path fill="#1F2328" d="M49.4 27V17.9H50.9V25.8H55V27H49.4ZM56.8 27V25.9H59V19H56.8V17.9H62.6V19H60.4V25.9H62.6V27H56.8ZM65.9 20H65.8V27H64.5V17.9H66.4L69.1 24.9H69.2V17.9H70.5V27H68.6L65.9 20ZM75 22.8 73.9 24.2V27H72.4V17.9H73.9V22.3H73.9L75 20.8L77.3 17.9H78.9L76 21.7L79.1 27H77.4L75 22.8ZM80.3 27V17.9H86V19.1H81.8V21.8H85.8V23H81.8V25.8H86V27H80.3ZM88.1 17.9H90.8Q92.5 17.9 93.4 19.1Q94.2 20.2 94.2 22.5Q94.2 24.7 93.4 25.8Q92.5 27 90.8 27H88.1V17.9ZM90.7 25.8Q91.7 25.8 92.2 25.1Q92.7 24.5 92.7 23.2V21.7Q92.7 20.5 92.2 19.8Q91.7 19.1 90.7 19.1H89.5V25.8H90.7ZM95.8 27V25.9H98V19H95.8V17.9H101.6V19H99.4V25.9H101.6V27H95.8ZM104.9 20H104.8V27H103.5V17.9H105.4L108.1 24.9H108.2V17.9H109.5V27H107.6L104.9 20Z"/></g></svg>
