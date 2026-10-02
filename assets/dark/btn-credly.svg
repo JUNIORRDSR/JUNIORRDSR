@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="170" height="44" viewBox="0 0 170 44" role="img" aria-label="Credly"><title>Credly</title><style>
+.u{animation:rise .3s cubic-bezier(.23,1,.32,1) backwards}
+.f{animation:fade .3s cubic-bezier(.23,1,.32,1) backwards}
+.d{stroke-dasharray:1;animation:draw .7s cubic-bezier(.23,1,.32,1) backwards}
+.p{stroke-dasharray:1;animation:draw .9s cubic-bezier(.77,0,.175,1) backwards}
+.cur{transform-box:fill-box;transform-origin:right;transform:scaleX(0);animation:curtain .7s cubic-bezier(.23,1,.32,1) backwards}
+.cursor{opacity:0;animation:cursor .7s cubic-bezier(.23,1,.32,1) backwards}
+.pulse{animation:pulse 2.4s cubic-bezier(.77,0,.175,1) infinite}
+.led{animation:led 4s steps(1,end) 3s infinite}
+@keyframes rise{from{opacity:0;transform:translateY(8px)}}
+@keyframes fade{from{opacity:0}}
+@keyframes draw{from{stroke-dashoffset:1}}
+@keyframes curtain{from{transform:scaleX(1)}}
+@keyframes cursor{from{opacity:1;transform:translateX(0)}to{opacity:1;transform:translateX(592px)}}
+@keyframes pulse{50%{opacity:.25}}
+@keyframes led{0%{opacity:1}5%{opacity:.15}10%{opacity:1}15%{opacity:.15}20%{opacity:1}}
+@media (prefers-reduced-motion:reduce){.u{animation-name:fade}.d,.p,.cur,.cursor,.pulse,.led{animation:none}}
+</style><rect x=".75" y=".75" width="168.5" height="42.5" fill="#0D1117"/><path class="d" pathLength="1" style="animation-delay:0.68s;animation-duration:.9s" d="M0.8 0.8H169.2V43.2H0.8Z" stroke="#E6EDF3" stroke-width="1.5" fill="none"/><g transform="translate(18 12)" fill="none" stroke="#E6EDF3" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"><circle class="d" pathLength="1" style="animation-delay:0.83s" cx="9" cy="7" r="6.2"/><path class="d" pathLength="1" style="animation-delay:1.03s" d="M5.6 12.2L4.2 19 7.2 17.4 9 19.8 10.8 17.4 13.8 19 12.4 12.2"/><path class="d" pathLength="1" style="animation-delay:1.18s" d="M6.4 7l1.8 1.8 3.4-3.6"/></g><g class="u" style="animation-delay:0.93s"><path fill="#E6EDF3" d="M52.2 27.2Q50.4 27.2 49.6 25.9Q48.8 24.7 48.8 22.5Q48.8 20.2 49.6 19Q50.4 17.8 52.2 17.8Q52.8 17.8 53.3 17.9Q53.8 18.1 54.1 18.4Q54.5 18.7 54.7 19.1Q55 19.6 55.1 20L53.8 20.5Q53.7 20.1 53.6 19.9Q53.5 19.6 53.3 19.4Q53.1 19.2 52.8 19.1Q52.5 19 52.1 19Q51.2 19 50.7 19.7Q50.3 20.4 50.3 21.7V23.2Q50.3 24.5 50.7 25.2Q51.2 25.9 52.1 25.9Q52.5 25.9 52.8 25.8Q53.1 25.7 53.3 25.5Q53.5 25.3 53.6 25.1Q53.7 24.8 53.8 24.5L55.1 24.9Q55 25.4 54.7 25.8Q54.5 26.2 54.1 26.5Q53.8 26.8 53.3 27Q52.8 27.2 52.2 27.2ZM58.3 27H56.9V17.9H60.3Q61.6 17.9 62.3 18.7Q62.9 19.4 62.9 20.7Q62.9 21.7 62.4 22.4Q61.9 23 61 23.2L63.1 27H61.5L59.5 23.3H58.3V27ZM60.1 22.2Q61.4 22.2 61.4 20.9V20.4Q61.4 19.1 60.1 19.1H58.3V22.2H60.1ZM64.7 27V17.9H70.4V19.1H66.2V21.8H70.2V23H66.2V25.8H70.4V27H64.7ZM72.5 17.9H75.2Q76.9 17.9 77.8 19.1Q78.6 20.2 78.6 22.5Q78.6 24.7 77.8 25.8Q76.9 27 75.2 27H72.5V17.9ZM75.1 25.8Q76.1 25.8 76.6 25.1Q77.1 24.5 77.1 23.2V21.7Q77.1 20.5 76.6 19.8Q76.1 19.1 75.1 19.1H73.9V25.8H75.1ZM80.6 27V17.9H82.1V25.8H86.2V27H80.6ZM90.2 27V23.6L87.2 17.9H88.8L89.9 20.2L90.9 22.1H91L91.9 20.2L93.1 17.9H94.6L91.6 23.6V27H90.2Z"/></g></svg>

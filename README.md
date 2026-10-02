@@ -2,7 +2,7 @@
 
 <p><picture><source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=IBM+Plex+Mono&weight=500&size=15&duration=2200&pause=1200&color=FF6A2B&width=640&height=28&lines=ESPECIALIDAD%3A+APPS+M%C3%93VILES+CON+FLUTTER+Y+KOTLIN;ESPECIALIDAD%3A+BACKENDS+EN+PYTHON+Y+TYPESCRIPT;ESPECIALIDAD%3A+VISI%C3%93N+POR+COMPUTADOR+CON+YOLO;ESPECIALIDAD%3A+INFRAESTRUCTURA+EN+GOOGLE+CLOUD;ESPECIALIDAD%3A+HERRAMIENTAS+PARA+AGENTES+DE+IA"><img src="https://readme-typing-svg.demolab.com?font=IBM+Plex+Mono&weight=500&size=15&duration=2200&pause=1200&color=C2410C&width=640&height=28&lines=ESPECIALIDAD%3A+APPS+M%C3%93VILES+CON+FLUTTER+Y+KOTLIN;ESPECIALIDAD%3A+BACKENDS+EN+PYTHON+Y+TYPESCRIPT;ESPECIALIDAD%3A+VISI%C3%93N+POR+COMPUTADOR+CON+YOLO;ESPECIALIDAD%3A+INFRAESTRUCTURA+EN+GOOGLE+CLOUD;ESPECIALIDAD%3A+HERRAMIENTAS+PARA+AGENTES+DE+IA"  alt="Especialidades: apps móviles con Flutter y Kotlin, backends en Python y TypeScript, visión por computador con YOLO, infraestructura en Google Cloud y herramientas para agentes de IA."></picture></p>
 
-<p><a href="https://www.linkedin.com/in/jorge-junior-solano-romero-606276209/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/btn-linkedin.svg"><img src="assets/light/btn-linkedin.svg" height="40" alt="LinkedIn"></picture></a> <a href="mailto:jorgej-solanor@unilibre.edu.co"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/btn-correo.svg"><img src="assets/light/btn-correo.svg" height="40" alt="Correo"></picture></a></p>
+<p><a href="https://www.linkedin.com/in/jorge-junior-solano-romero-606276209/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/btn-linkedin.svg"><img src="assets/light/btn-linkedin.svg" height="40" alt="LinkedIn"></picture></a> <a href="https://www.credly.com/users/jorge-solano.11432149"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/btn-credly.svg"><img src="assets/light/btn-credly.svg" height="40" alt="Credly"></picture></a> <a href="mailto:jorgej-solanor@unilibre.edu.co"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/btn-correo.svg"><img src="assets/light/btn-correo.svg" height="40" alt="Correo"></picture></a></p>
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/h-resumen.svg"><img src="assets/light/h-resumen.svg" width="100%" alt="Sección 01: resumen del perfil"></picture>
 
@@ -80,6 +80,8 @@ Antes de entrenar auditamos la fuga de datos: imágenes repetidas o casi repetid
 <details>
 <summary><b>Formación y certificaciones</b></summary>
 <br>
+
+Las insignias verificables están en mi perfil de [Credly](https://www.credly.com/users/jorge-solano.11432149).
 
 | Área | Título o certificación | Entidad |
 |---|---|---|
