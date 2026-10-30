@@ -1,4 +1,4 @@
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/banner.svg"><img src="assets/light/banner.svg" width="100%" alt="Jorge Solano. Desarrollador full stack en Barranquilla, Colombia. Desarrollador en GLocation desde noviembre de 2025. Ingeniería de Sistemas en la Universidad Libre."></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/banner.svg"><img src="assets/light/banner.svg" width="100%" alt="Jorge Solano. Desarrollador full stack en Barranquilla, Colombia. Experiencia en GLocation de noviembre de 2025 a octubre de 2026. Ingeniería de Sistemas en la Universidad Libre."></picture>
 
 <p><picture><source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=IBM+Plex+Mono&weight=500&size=15&duration=2200&pause=1200&color=FF6A2B&width=640&height=28&lines=ESPECIALIDAD%3A+APPS+M%C3%93VILES+CON+FLUTTER+Y+KOTLIN;ESPECIALIDAD%3A+BACKENDS+EN+PYTHON+Y+TYPESCRIPT;ESPECIALIDAD%3A+VISI%C3%93N+POR+COMPUTADOR+CON+YOLO;ESPECIALIDAD%3A+INFRAESTRUCTURA+EN+GOOGLE+CLOUD;ESPECIALIDAD%3A+HERRAMIENTAS+PARA+AGENTES+DE+IA"><img src="https://readme-typing-svg.demolab.com?font=IBM+Plex+Mono&weight=500&size=15&duration=2200&pause=1200&color=C2410C&width=640&height=28&lines=ESPECIALIDAD%3A+APPS+M%C3%93VILES+CON+FLUTTER+Y+KOTLIN;ESPECIALIDAD%3A+BACKENDS+EN+PYTHON+Y+TYPESCRIPT;ESPECIALIDAD%3A+VISI%C3%93N+POR+COMPUTADOR+CON+YOLO;ESPECIALIDAD%3A+INFRAESTRUCTURA+EN+GOOGLE+CLOUD;ESPECIALIDAD%3A+HERRAMIENTAS+PARA+AGENTES+DE+IA"  alt="Especialidades: apps móviles con Flutter y Kotlin, backends en Python y TypeScript, visión por computador con YOLO, infraestructura en Google Cloud y herramientas para agentes de IA."></picture></p>
 
@@ -6,17 +6,36 @@
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/h-resumen.svg"><img src="assets/light/h-resumen.svg" width="100%" alt="Sección 01: resumen del perfil"></picture>
 
-Estudio Ingeniería de Sistemas en la Universidad Libre de Barranquilla y desde noviembre de 2025 trabajo como desarrollador en GLocation. Por fuera del trabajo hago apps móviles en Flutter y Kotlin, backends en Python y TypeScript sobre Google Cloud, y visión por computador en el Semillero TI de la universidad.
+Estudio Ingeniería de Sistemas en la Universidad Libre de Barranquilla. Trabajé en GLocation de noviembre de 2025 al 30 de octubre de 2026 como Scrum Developer / desarrollador Full Stack, con funciones de QA y desarrollo cloud. También hago apps móviles en Flutter y Kotlin, backends en Python y TypeScript sobre Google Cloud, y visión por computador en el Semillero TI de la universidad.
 
 También armo herramientas para trabajar con agentes de código: plugins y skills para Claude Code y Antigravity, y servidores MCP.
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/h-proyectos.svg"><img src="assets/light/h-proyectos.svg" width="100%" alt="Sección 02: proyectos destacados"></picture>
 
-<p>
-<a href="https://github.com/JUNIORRDSR/VerifiClean"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/card-verificlean.svg"><img src="assets/light/card-verificlean.svg" width="49%" alt="VerifiClean: App Android y API que comprueban que el supervisor de aseo sí estuvo en la sede del cliente. Kotlin, Compose, Node.js, TS. Estado: En desarrollo."></picture></a> <a href="https://github.com/JUNIORRDSR/deteccion-enfermedades-mango-cascada"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/card-mango.svg"><img src="assets/light/card-mango.svg" width="49%" alt="Enfermedades del mango: Cascada de detector y clasificador, con auditoría de fuga de datos. Semillero TI, Universidad Libre. Python, YOLO26n, YOLO11n-cls. Estado: Artículo, versión revisada."></picture></a>
-<a href="https://github.com/DevsJJA/CrediRuta"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/card-crediruta.svg"><img src="assets/light/card-crediruta.svg" width="49%" alt="CrediRuta: Cartera de microcrédito para rutas de cobro. Funciona sin conexión y sincroniza después. Flutter, Dart, drift (SQLite). Estado: En desarrollo, equipo DevsJJA."></picture></a> <a href="https://github.com/LeoBarraza0/HealthByte"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/card-healthbyte.svg"><img src="assets/light/card-healthbyte.svg" width="49%" alt="HealthByte: Checklist de seguridad quirúrgica que se llena por voz, con la cámara como segundo conteo. React, Node.js, Vertex AI. Estado: En desarrollo, con @LeoBarraza0."></picture></a>
-<a href="https://github.com/JUNIORRDSR/Antigravity-CLI-Skill"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/card-antigravity-skill.svg"><img src="assets/light/card-antigravity-skill.svg" width="49%" alt="Antigravity CLI Skill: Delega tareas de Claude Code a Antigravity CLI y les hace seguimiento hasta que terminan. JavaScript. Estado: Instalable con /plugin."></picture></a> <a href="https://github.com/JUNIORRDSR/Antigravity-safe-swicht"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/card-agy-auto-switch.svg"><img src="assets/light/card-agy-auto-switch.svg" width="49%" alt="agy-auto-switch: Cambia de cuenta de Antigravity al agotar la cuota y retoma la tarea sin perder el hilo. PowerShell 5.1. Estado: Disponible."></picture></a>
-</p>
+### [ProntoA!](https://github.com/Curcolor/ProntoApp-)
+
+Colaboré con [@Curcolor](https://github.com/Curcolor) en una aplicación de gestión de pedidos para negocios, con módulos de gerencia, cocina y reparto, seguimiento de estados e integración con un bot de Telegram.
+
+**Stack:** Flutter, Dart, Provider, Python y Flask.
+
+### Cuadra
+
+Proyecto personal en desarrollo para gestionar movimientos y gastos personales. Trabajo en el cliente móvil y la API; la integración se valida en local con emuladores de Firebase. El código se mantiene en repositorios privados.
+
+**Stack:** Flutter, Dart, Python, FastAPI, Firestore y Firebase Authentication. **Estado:** MVP en desarrollo.
+
+### [HealthByte](https://github.com/LeoBarraza0/HealthByte)
+
+Participé como desarrollador **Full Stack** en este proyecto de hackatón: un tablero de seguridad quirúrgica con interacción por voz. Desarrollé frontend y backend como parte del equipo.
+
+**Stack:** React, Node.js, TypeScript, PostgreSQL y servicios de Google Cloud.
+
+### [VerifiClean](https://github.com/JUNIORRDSR/VerifiClean)
+
+Aplicación Android y API para verificar visitas mediante geolocalización, evidencias y controles de integridad. Incluye pruebas de la API y la app; el despliegue en GCP está pendiente.
+
+**Stack:** Kotlin, Jetpack Compose, Node.js y TypeScript.
+
 
 <details>
 <summary><b>VerifiClean:</b> por qué el servidor nunca rechaza una evidencia</summary>
@@ -37,17 +56,18 @@ Antes de entrenar auditamos la fuga de datos: imágenes repetidas o casi repetid
 </details>
 
 <details>
-<summary><b>Más proyectos</b> de 2024 y 2025</summary>
+<summary><b>Otros proyectos y colaboraciones</b></summary>
 <br>
 
 | Proyecto | Qué es | Stack |
 |---|---|---|
 | [CrediRuta-Design](https://github.com/JUNIORRDSR/CrediRuta-Design) | Contratos visuales y prototipo navegable de CrediRuta, 38 pantallas | HTML, CSS |
 | [CLAUDEMAX](https://github.com/Curcolor/CLAUDEMAX) | Entorno completo para Claude Code; colaboro con [@Curcolor](https://github.com/Curcolor) | JavaScript, Bash |
+| [Antigravity-CLI-Skill](https://github.com/JUNIORRDSR/Antigravity-CLI-Skill) | Plugin para integrar Claude Code con Antigravity CLI | JavaScript |
+| [agy-auto-switch](https://github.com/JUNIORRDSR/Antigravity-safe-swicht) | Herramienta para el cambio de cuentas de Antigravity | PowerShell |
 | [INKLU AI](https://github.com/JUNIORRDSR/INKLU-AI) | Conecta personas con discapacidad con empresas inclusivas | Python, JavaScript |
 | [Incapacidades](https://github.com/JUNIORRDSR/Incapacidades) | Gestión digital de incapacidades laborales y pensiones | Next.js, NestJS, PostgreSQL, MongoDB |
 | [ProjectInsight](https://github.com/JUNIORRDSR/Prueba-Tecnica) | Panel de proyectos con API REST y resumen generado por IA | Node.js, Express, Prisma, PostgreSQL |
-| [ProntoApp](https://github.com/Curcolor/ProntoApp-) | Pedidos en tiempo real para negocios, con bot de Telegram | Flutter, Python |
 | [Salas de cine](https://github.com/JUNIORRDSR/SISTEMAS-SALAS-DE-CINE) | Control de taquillas, con [cliente](https://github.com/JUNIORRDSR/Proyecto-Cine-Cliente) y [backend](https://github.com/JUNIORRDSR/Proyecto-Cine-Backend) | JavaScript |
 | [Traductor](https://github.com/JUNIORRDSR/proyecto-fullstack) | Traductor español-inglés con frontend y backend | JavaScript |
 | [Walli Wallet](https://github.com/Curcolor/WALLI_WALLET) | Billetera digital: transferencias, depósitos, retiros y pagos | Python |
@@ -85,11 +105,12 @@ Las insignias verificables están en mi perfil de [Credly](https://www.credly.co
 
 | Área | Título o certificación | Entidad |
 |---|---|---|
-| Formación | Ingeniería de Sistemas, desde 2021 | Universidad Libre |
+| Formación | Ingeniería de Sistemas (en curso) | Universidad Libre |
 | Formación | Técnico en Sistemas | SENA |
 | Formación | Programación | TalentoTech Caribe |
 | Nube | Google Cloud Foundations | Google Cloud |
 | Nube | Skill badges: Secure Network, Load Balancing, ML APIs, App Dev Environment | Google Cloud |
+| Nube | [Develop Serverless Applications on Cloud Run](https://www.credly.com/badges/cd17d2ff-5161-4113-8432-5cb4cec4a9b6), [Deploy Kubernetes Applications on Google Cloud](https://www.credly.com/badges/c7691f3b-1196-487d-bc1f-7f8d82f0227f), [Develop and Secure APIs with Apigee X](https://www.credly.com/badges/1eef5db9-b6d0-4efd-b1d3-1f7df270014f) (octubre de 2026) | Google Cloud |
 | Programación | Fundamentos de Programación | LinkedIn |
 | Programación | Python Essentials 1 | |
 | Ciberseguridad | Cybersecurity Essentials, Introduction to Cybersecurity | Cisco |
