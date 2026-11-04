@@ -1,4 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="170" height="44" viewBox="0 0 170 44" role="img" aria-label="Credly"><title>Credly</title><style>
+<svg xmlns="http://www.w3.org/2000/svg" width="170" height="44" viewBox="0 0 170 44" role="img" aria-label="Credly">
+  <title>Credly</title>
+  <style>
 .u{animation:rise .3s cubic-bezier(.23,1,.32,1) backwards}
 .f{animation:fade .3s cubic-bezier(.23,1,.32,1) backwards}
 .d{stroke-dasharray:1;animation:draw .7s cubic-bezier(.23,1,.32,1) backwards}
@@ -15,4 +17,15 @@
 @keyframes pulse{50%{opacity:.25}}
 @keyframes led{0%{opacity:1}5%{opacity:.15}10%{opacity:1}15%{opacity:.15}20%{opacity:1}}
 @media (prefers-reduced-motion:reduce){.u{animation-name:fade}.d,.p,.cur,.cursor,.pulse,.led{animation:none}}
-</style><rect x=".75" y=".75" width="168.5" height="42.5" fill="#0D1117"/><path class="d" pathLength="1" style="animation-delay:0.68s;animation-duration:.9s" d="M0.8 0.8H169.2V43.2H0.8Z" stroke="#E6EDF3" stroke-width="1.5" fill="none"/><g transform="translate(18 12)" fill="none" stroke="#E6EDF3" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"><circle class="d" pathLength="1" style="animation-delay:0.83s" cx="9" cy="7" r="6.2"/><path class="d" pathLength="1" style="animation-delay:1.03s" d="M5.6 12.2L4.2 19 7.2 17.4 9 19.8 10.8 17.4 13.8 19 12.4 12.2"/><path class="d" pathLength="1" style="animation-delay:1.18s" d="M6.4 7l1.8 1.8 3.4-3.6"/></g><g class="u" style="animation-delay:0.93s"><path fill="#E6EDF3" d="M52.2 27.2Q50.4 27.2 49.6 25.9Q48.8 24.7 48.8 22.5Q48.8 20.2 49.6 19Q50.4 17.8 52.2 17.8Q52.8 17.8 53.3 17.9Q53.8 18.1 54.1 18.4Q54.5 18.7 54.7 19.1Q55 19.6 55.1 20L53.8 20.5Q53.7 20.1 53.6 19.9Q53.5 19.6 53.3 19.4Q53.1 19.2 52.8 19.1Q52.5 19 52.1 19Q51.2 19 50.7 19.7Q50.3 20.4 50.3 21.7V23.2Q50.3 24.5 50.7 25.2Q51.2 25.9 52.1 25.9Q52.5 25.9 52.8 25.8Q53.1 25.7 53.3 25.5Q53.5 25.3 53.6 25.1Q53.7 24.8 53.8 24.5L55.1 24.9Q55 25.4 54.7 25.8Q54.5 26.2 54.1 26.5Q53.8 26.8 53.3 27Q52.8 27.2 52.2 27.2ZM58.3 27H56.9V17.9H60.3Q61.6 17.9 62.3 18.7Q62.9 19.4 62.9 20.7Q62.9 21.7 62.4 22.4Q61.9 23 61 23.2L63.1 27H61.5L59.5 23.3H58.3V27ZM60.1 22.2Q61.4 22.2 61.4 20.9V20.4Q61.4 19.1 60.1 19.1H58.3V22.2H60.1ZM64.7 27V17.9H70.4V19.1H66.2V21.8H70.2V23H66.2V25.8H70.4V27H64.7ZM72.5 17.9H75.2Q76.9 17.9 77.8 19.1Q78.6 20.2 78.6 22.5Q78.6 24.7 77.8 25.8Q76.9 27 75.2 27H72.5V17.9ZM75.1 25.8Q76.1 25.8 76.6 25.1Q77.1 24.5 77.1 23.2V21.7Q77.1 20.5 76.6 19.8Q76.1 19.1 75.1 19.1H73.9V25.8H75.1ZM80.6 27V17.9H82.1V25.8H86.2V27H80.6ZM90.2 27V23.6L87.2 17.9H88.8L89.9 20.2L90.9 22.1H91L91.9 20.2L93.1 17.9H94.6L91.6 23.6V27H90.2Z"/></g></svg>
+</style>
+  <rect x=".75" y=".75" width="168.5" height="42.5" fill="#0D1117" />
+  <path class="d" pathLength="1" style="animation-delay:0.68s;animation-duration:.9s" d="M0.8 0.8H169.2V43.2H0.8Z" stroke="#E6EDF3" stroke-width="1.5" fill="none" />
+  <g transform="translate(18 12)" fill="none" stroke="#E6EDF3" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round">
+    <circle class="d" pathLength="1" style="animation-delay:0.83s" cx="9" cy="7" r="6.2" />
+    <path class="d" pathLength="1" style="animation-delay:1.03s" d="M5.6 12.2L4.2 19 7.2 17.4 9 19.8 10.8 17.4 13.8 19 12.4 12.2" />
+    <path class="d" pathLength="1" style="animation-delay:1.18s" d="M6.4 7l1.8 1.8 3.4-3.6" />
+  </g>
+  <g class="u" style="animation-delay:0.93s">
+    <path fill="#E6EDF3" d="M51.8 27.1Q50.2 27.1 49.5 26Q48.7 24.9 48.7 22.8Q48.7 20.7 49.5 19.6Q50.2 18.5 51.8 18.5Q52.5 18.5 52.9 18.6Q53.4 18.8 53.7 19.1Q54 19.4 54.2 19.7Q54.4 20.1 54.6 20.6L53.4 21Q53.3 20.7 53.2 20.4Q53 20.2 52.9 20Q52.7 19.8 52.4 19.7Q52.2 19.6 51.8 19.6Q50.9 19.6 50.5 20.3Q50.1 21 50.1 22.1V23.5Q50.1 24.7 50.5 25.4Q50.9 26 51.8 26Q52.2 26 52.4 25.9Q52.7 25.8 52.9 25.6Q53 25.5 53.2 25.2Q53.3 24.9 53.4 24.7L54.6 25.1Q54.4 25.5 54.2 25.9Q54 26.3 53.7 26.5Q53.4 26.8 52.9 27Q52.5 27.1 51.8 27.1ZM57.5 27H56.2V18.6H59.3Q60.5 18.6 61.2 19.3Q61.8 20 61.8 21.1Q61.8 22.1 61.3 22.7Q60.9 23.4 60 23.5L61.9 27H60.4L58.7 23.6H57.5ZM59.1 22.5Q60.4 22.5 60.4 21.4V20.9Q60.4 19.7 59.1 19.7H57.5V22.5ZM63.4 27V18.6H68.7V19.8H64.8V22.2H68.5V23.3H64.8V25.9H68.7V27ZM70.6 18.6H73.1Q74.7 18.6 75.5 19.7Q76.2 20.8 76.2 22.8Q76.2 24.9 75.5 25.9Q74.7 27 73.1 27H70.6ZM73 25.9Q73.9 25.9 74.4 25.3Q74.8 24.7 74.8 23.5V22.1Q74.8 21 74.4 20.3Q73.9 19.7 73 19.7H71.9V25.9ZM78.1 27V18.6H79.4V25.9H83.3V27ZM86.9 27V23.8L84.1 18.6H85.6L86.7 20.7L87.6 22.5H87.6L88.5 20.7L89.6 18.6H91.1L88.3 23.8V27Z" aria-label="CREDLY" />
+  </g>
+</svg>

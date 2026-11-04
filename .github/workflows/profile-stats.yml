@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
   push:
     branches: [main]
-    paths: [".github/workflows/profile-stats.yml"]
+    paths: ["scripts/profile.json", "scripts/stats_options.py", ".github/workflows/profile-stats.yml"]
 
 permissions:
   contents: write
@@ -22,12 +22,16 @@ jobs:
     steps:
       - uses: actions/checkout@v7
 
+      - name: Preparar opciones
+        id: options
+        run: python scripts/stats_options.py >> "$GITHUB_OUTPUT"
+
       - name: Generar tarjeta oscura
         uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21 # v2.1.0
         with:
           card: stats
           path: assets/dark/stats.svg
-          options: username=${{ github.repository_owner }}&show_icons=true&include_all_commits=true&hide=contribs&locale=es&custom_title=Registro%20en%20GitHub&border_radius=0&bg_color=0D1117&border_color=30363D&title_color=E6EDF3&icon_color=FF6A2B&text_color=E6EDF3&ring_color=FF6A2B
+          options: ${{ steps.options.outputs.dark }}
           token: ${{ secrets.GITHUB_TOKEN }}
           fail_on_error: "true"
 
@@ -36,7 +40,7 @@ jobs:
         with:
           card: stats
           path: assets/light/stats.svg
-          options: username=${{ github.repository_owner }}&show_icons=true&include_all_commits=true&hide=contribs&locale=es&custom_title=Registro%20en%20GitHub&border_radius=0&bg_color=FFFFFF&border_color=D0D7DE&title_color=1F2328&icon_color=FF4F00&text_color=1F2328&ring_color=FF4F00
+          options: ${{ steps.options.outputs.light }}
           token: ${{ secrets.GITHUB_TOKEN }}
           fail_on_error: "true"
 

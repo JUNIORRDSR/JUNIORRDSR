@@ -1,0 +1,176 @@
+{
+  "profile": {
+    "github_user": "JUNIORRDSR",
+    "name": "JORGE SOLANO",
+    "revision": "2026-11",
+    "location": "Barranquilla, Colombia",
+    "region": "región Caribe",
+    "footer_location": "BARRANQUILLA, ATLÁNTICO"
+  },
+  "themes": {
+    "dark": {
+      "grid": "#1A2029",
+      "background": "#0D1117",
+      "muted": "#8B949E",
+      "border": "#30363D",
+      "panel": "#161B22",
+      "text": "#E6EDF3",
+      "accent": "#FF6A2B",
+      "accent_text": "#FF8A50"
+    },
+    "light": {
+      "grid": "#EAEEF2",
+      "background": "#FFFFFF",
+      "muted": "#59636E",
+      "border": "#D0D7DE",
+      "panel": "#F6F8FA",
+      "text": "#1F2328",
+      "accent": "#FF4F00",
+      "accent_text": "#C2410C"
+    }
+  },
+  "assets": {
+    "banner": {
+      "alt": "Jorge Solano. Desarrollador Full Stack, QA Tester y Cloud Developer en Barranquilla, Colombia. Experiencia en GLocation de noviembre de 2025 al 30 de octubre de 2026, finalizada. Ingeniería de Sistemas en la Universidad Libre desde 2023.",
+      "texts": {
+        "subtitle": "DESARROLLADOR FULL STACK EN BARRANQUILLA, COLOMBIA",
+        "experience_title": "Experiencia en GLocation",
+        "experience_period": "nov. 2025 – 30 oct. 2026 · finalizado",
+        "education": "Ingeniería de Sistemas",
+        "university": "Universidad Libre, desde 2023"
+      }
+    },
+    "footer": {
+      "alt": "FICHA TÉCNICA, REVISIÓN 2026-11",
+      "texts": {}
+    },
+    "h-resumen": {
+      "alt": "Resumen del perfil",
+      "texts": {
+        "number": "01",
+        "title": "RESUMEN DEL PERFIL",
+        "note": "BARRANQUILLA, CO"
+      }
+    },
+    "h-proyectos": {
+      "alt": "Proyectos destacados",
+      "texts": {
+        "number": "02",
+        "title": "PROYECTOS DESTACADOS",
+        "note": "6 ENTRADAS"
+      }
+    },
+    "h-tecnologias": {
+      "alt": "Tecnologías",
+      "texts": {
+        "number": "03",
+        "title": "TECNOLOGÍAS",
+        "note": "LISTA DE COMPONENTES"
+      }
+    },
+    "h-actividad": {
+      "alt": "Actividad",
+      "texts": {
+        "number": "04",
+        "title": "ACTIVIDAD",
+        "note": "DATOS DE GITHUB"
+      }
+    },
+    "btn-correo": {
+      "alt": "Correo",
+      "texts": {
+        "title": "CORREO"
+      }
+    },
+    "btn-credly": {
+      "alt": "Credly",
+      "texts": {
+        "title": "CREDLY"
+      }
+    },
+    "btn-linkedin": {
+      "alt": "Linkedin",
+      "texts": {
+        "title": "LINKEDIN"
+      }
+    },
+    "card-agy-auto-switch": {
+      "alt": "agy-auto-switch: Cambia de cuenta de Antigravity al agotar la cuota y retoma la tarea sin perder el hilo. Plataforma: CLI para Windows. Stack: PowerShell 5.1. Estado: Disponible. Credenciales solo en el Administrador de Windows.",
+      "texts": {
+        "title": "AGY-AUTO-SWITCH",
+        "reference": "JUNIORRDSR/Antigravity-safe-swicht",
+        "platform": "CLI para Windows",
+        "stack": "PowerShell 5.1",
+        "state": "DISPONIBLE",
+        "description_1": "Cambia de cuenta de Antigravity al agotar la",
+        "description_2": "cuota y retoma la tarea sin perder el hilo.",
+        "note": "CREDENCIALES SOLO EN EL ADMINISTRADOR DE WINDOWS"
+      }
+    },
+    "card-antigravity-skill": {
+      "alt": "Antigravity CLI Skill: Delega tareas de Claude Code a Antigravity CLI y les hace seguimiento hasta que terminan. Plataforma: Plugin de Claude Code. Stack: JavaScript. Estado: Instalable con /plugin. Trabajos con ID, seguimiento y relevo de cuota.",
+      "texts": {
+        "title": "ANTIGRAVITY CLI SKILL",
+        "reference": "JUNIORRDSR/Antigravity-CLI-Skill",
+        "platform": "Plugin de Claude Code",
+        "stack": "JavaScript",
+        "state": "INSTALABLE CON /PLUGIN",
+        "description_1": "Delega tareas de Claude Code a Antigravity CLI",
+        "description_2": "y les hace seguimiento hasta que terminan.",
+        "note": "TRABAJOS CON ID, SEGUIMIENTO Y RELEVO DE CUOTA"
+      }
+    },
+    "card-crediruta": {
+      "alt": "CrediRuta: Cartera de microcrédito para rutas de cobro. Funciona sin conexión y sincroniza después. Plataforma: Android, offline-first. Stack: Flutter, Dart, drift (SQLite). Estado: En desarrollo, equipo DevsJJA. 38 pantallas diseñadas en CrediRuta-Design.",
+      "texts": {
+        "title": "CREDIRUTA",
+        "reference": "DevsJJA/CrediRuta",
+        "platform": "Android, offline-first",
+        "stack": "Flutter, Dart, drift (SQLite)",
+        "state": "EN DESARROLLO, EQUIPO DEVSJJA",
+        "description_1": "Cartera de microcrédito para rutas de cobro.",
+        "description_2": "Funciona sin conexión y sincroniza después.",
+        "note": "38 PANTALLAS DISEÑADAS EN CREDIRUTA-DESIGN"
+      }
+    },
+    "card-healthbyte": {
+      "alt": "HealthByte: Checklist de seguridad quirúrgica que se llena por voz, con la cámara como segundo conteo. Plataforma: Web + voz + cámara. Stack: React, Node.js, Vertex AI. Estado: En desarrollo, con @LeoBarraza0. Nada se registra sin confirmación.",
+      "texts": {
+        "title": "HEALTHBYTE",
+        "reference": "LeoBarraza0/HealthByte",
+        "platform": "Web + voz + cámara",
+        "stack": "React, Node.js, Vertex AI",
+        "state": "EN DESARROLLO, CON @LEOBARRAZA0",
+        "description_1": "Checklist de seguridad quirúrgica que se llena",
+        "description_2": "por voz, con la cámara como segundo conteo.",
+        "note": "NADA SE REGISTRA SIN CONFIRMACIÓN"
+      }
+    },
+    "card-mango": {
+      "alt": "Enfermedades del mango: Cascada de detector y clasificador, con auditoría de fuga de datos. Semillero TI, Universidad Libre. Plataforma: Visión por computador. Stack: Python, YOLO26n, YOLO11n-cls. Estado: Artículo, versión revisada. Exactitud del clasificador: 0,909.",
+      "texts": {
+        "title": "ENFERMEDADES DEL MANGO",
+        "reference": "JUNIORRDSR/deteccion-enfermedades-mango-cascada",
+        "platform": "Visión por computador",
+        "stack": "Python, YOLO26n, YOLO11n-cls",
+        "state": "ARTÍCULO, VERSIÓN REVISADA",
+        "description_1": "Cascada de detector y clasificador, con auditoría",
+        "description_2": "de fuga de datos. Semillero TI, Universidad Libre.",
+        "note": "EXACTITUD DEL CLASIFICADOR: 0,909"
+      }
+    },
+    "card-verificlean": {
+      "alt": "VerifiClean: App Android y API que comprueban que el supervisor de aseo sí estuvo en la sede del cliente. Plataforma: Android + API REST. Stack: Kotlin, Compose, Node.js, TS. Estado: En desarrollo. 7 comprobaciones antifraude en el servidor.",
+      "texts": {
+        "title": "VERIFICLEAN",
+        "reference": "JUNIORRDSR/VerifiClean",
+        "platform": "Android + API REST",
+        "stack": "Kotlin, Compose, Node.js, TS",
+        "state": "EN DESARROLLO",
+        "description_1": "App Android y API que comprueban que el supervisor",
+        "description_2": "de aseo sí estuvo en la sede del cliente.",
+        "note": "7 COMPROBACIONES ANTIFRAUDE EN EL SERVIDOR"
+      }
+    }
+  }
+}

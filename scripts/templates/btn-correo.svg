@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="170" height="44" viewBox="0 0 170 44" role="img" aria-label="{{asset.alt}}">
+  <title>{{asset.alt}}</title>
+  <style>
+.u{animation:rise .3s cubic-bezier(.23,1,.32,1) backwards}
+.f{animation:fade .3s cubic-bezier(.23,1,.32,1) backwards}
+.d{stroke-dasharray:1;animation:draw .7s cubic-bezier(.23,1,.32,1) backwards}
+.p{stroke-dasharray:1;animation:draw .9s cubic-bezier(.77,0,.175,1) backwards}
+.cur{transform-box:fill-box;transform-origin:right;transform:scaleX(0);animation:curtain .7s cubic-bezier(.23,1,.32,1) backwards}
+.cursor{opacity:0;animation:cursor .7s cubic-bezier(.23,1,.32,1) backwards}
+.pulse{animation:pulse 2.4s cubic-bezier(.77,0,.175,1) infinite}
+.led{animation:led 4s steps(1,end) 3s infinite}
+@keyframes rise{from{opacity:0;transform:translateY(8px)}}
+@keyframes fade{from{opacity:0}}
+@keyframes draw{from{stroke-dashoffset:1}}
+@keyframes curtain{from{transform:scaleX(1)}}
+@keyframes cursor{from{opacity:1;transform:translateX(0)}to{opacity:1;transform:translateX(592px)}}
+@keyframes pulse{50%{opacity:.25}}
+@keyframes led{0%{opacity:1}5%{opacity:.15}10%{opacity:1}15%{opacity:.15}20%{opacity:1}}
+@media (prefers-reduced-motion:reduce){.u{animation-name:fade}.d,.p,.cur,.cursor,.pulse,.led{animation:none}}
+</style>
+  <rect x=".75" y=".75" width="168.5" height="42.5" fill="{{palette.background}}" />
+  <path class="d" pathLength="1" style="animation-delay:0.76s;animation-duration:.9s" d="M0.8 0.8H169.2V43.2H0.8Z" stroke="{{palette.text}}" stroke-width="1.5" fill="none" />
+  <g transform="translate(18 14)" fill="none" stroke="{{palette.text}}" stroke-width="1.6">
+    <path class="d" pathLength="1" style="animation-delay:0.91s" d="M.8 .8H17.2V15.2H.8Z" />
+    <path class="d" pathLength="1" style="animation-delay:1.11s" d="M1 1.5l8 6.5 8-6.5" />
+  </g>
+  <g class="u" style="animation-delay:1.01s">
+    <text fill="{{palette.text}}" x="48" y="27" font-family="mono-medium.ttf" font-size="12" data-max-width="108">{{asset.texts.title}}</text>
+  </g>
+</svg>

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="44" viewBox="0 0 960 44" aria-hidden="true">
+  <style>
+.u{animation:rise .3s cubic-bezier(.23,1,.32,1) backwards}
+.f{animation:fade .3s cubic-bezier(.23,1,.32,1) backwards}
+.d{stroke-dasharray:1;animation:draw .7s cubic-bezier(.23,1,.32,1) backwards}
+.p{stroke-dasharray:1;animation:draw .9s cubic-bezier(.77,0,.175,1) backwards}
+.cur{transform-box:fill-box;transform-origin:right;transform:scaleX(0);animation:curtain .7s cubic-bezier(.23,1,.32,1) backwards}
+.cursor{opacity:0;animation:cursor .7s cubic-bezier(.23,1,.32,1) backwards}
+.pulse{animation:pulse 2.4s cubic-bezier(.77,0,.175,1) infinite}
+.led{animation:led 4s steps(1,end) 3s infinite}
+@keyframes rise{from{opacity:0;transform:translateY(8px)}}
+@keyframes fade{from{opacity:0}}
+@keyframes draw{from{stroke-dashoffset:1}}
+@keyframes curtain{from{transform:scaleX(1)}}
+@keyframes cursor{from{opacity:1;transform:translateX(0)}to{opacity:1;transform:translateX(592px)}}
+@keyframes pulse{50%{opacity:.25}}
+@keyframes led{0%{opacity:1}5%{opacity:.15}10%{opacity:1}15%{opacity:.15}20%{opacity:1}}
+@media (prefers-reduced-motion:reduce){.u{animation-name:fade}.d,.p,.cur,.cursor,.pulse,.led{animation:none}}
+</style>
+  <rect width="960" height="44" fill="{{palette.background}}" />
+  <path class="d" pathLength="1" style="animation-delay:0.00s" d="M0 2L960 2" stroke="{{palette.text}}" stroke-width="2" fill="none" />
+  <g class="f" style="animation-delay:0.20s">
+    <text fill="{{palette.muted}}" x="0" y="30" font-family="mono.ttf" font-size="11">FICHA TÉCNICA, REVISIÓN {{profile.revision}}</text>
+  </g>
+  <g class="f" style="animation-delay:0.30s">
+    <text fill="{{palette.muted}}" x="960" y="30" font-family="mono.ttf" font-size="11" text-anchor="end">{{profile.footer_location}}</text>
+  </g>
+</svg>

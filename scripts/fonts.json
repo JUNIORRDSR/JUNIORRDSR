@@ -1,0 +1,18 @@
+{
+  "sans.ttf": {
+    "url": "https://raw.githubusercontent.com/google/fonts/8c3ea249848f15b7ff6092b3e16d44ef91771cad/ofl/ibmplexsans/IBMPlexSans%5Bwdth%2Cwght%5D.ttf",
+    "sha256": "3b031aa4216174205bd8471f88a49b91f093169e9e87bd5262242bc5967fe2e3"
+  },
+  "mono.ttf": {
+    "url": "https://raw.githubusercontent.com/google/fonts/8c3ea249848f15b7ff6092b3e16d44ef91771cad/ofl/ibmplexmono/IBMPlexMono-Regular.ttf",
+    "sha256": "6a3412f058c7d8dfd9170c41e85ade48e5156ecb89356110ca57a0a27734af46"
+  },
+  "mono-medium.ttf": {
+    "url": "https://raw.githubusercontent.com/google/fonts/8c3ea249848f15b7ff6092b3e16d44ef91771cad/ofl/ibmplexmono/IBMPlexMono-Medium.ttf",
+    "sha256": "a9b4c49bb299e05b5f6c481e7fb5e78943d2793249a0c8874ab574a2d1ea6755"
+  },
+  "display.ttf": {
+    "url": "https://raw.githubusercontent.com/google/fonts/8c3ea249848f15b7ff6092b3e16d44ef91771cad/ofl/ibmplexsanscondensed/IBMPlexSansCondensed-Bold.ttf",
+    "sha256": "b65492d86cdd5cd9d43d2671b55d5d36fec36859fc8b08bc6aba78e441d6c849"
+  }
+}

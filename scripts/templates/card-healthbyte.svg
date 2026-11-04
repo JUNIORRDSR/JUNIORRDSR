@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="460" height="240" viewBox="0 0 460 240" role="img" aria-label="{{asset.alt}}">
+  <title>{{asset.alt}}</title>
+  <style>
+.u{animation:rise .3s cubic-bezier(.23,1,.32,1) backwards}
+.f{animation:fade .3s cubic-bezier(.23,1,.32,1) backwards}
+.d{stroke-dasharray:1;animation:draw .7s cubic-bezier(.23,1,.32,1) backwards}
+.p{stroke-dasharray:1;animation:draw .9s cubic-bezier(.77,0,.175,1) backwards}
+.cur{transform-box:fill-box;transform-origin:right;transform:scaleX(0);animation:curtain .7s cubic-bezier(.23,1,.32,1) backwards}
+.cursor{opacity:0;animation:cursor .7s cubic-bezier(.23,1,.32,1) backwards}
+.pulse{animation:pulse 2.4s cubic-bezier(.77,0,.175,1) infinite}
+.led{animation:led 4s steps(1,end) 3s infinite}
+@keyframes rise{from{opacity:0;transform:translateY(8px)}}
+@keyframes fade{from{opacity:0}}
+@keyframes draw{from{stroke-dashoffset:1}}
+@keyframes curtain{from{transform:scaleX(1)}}
+@keyframes cursor{from{opacity:1;transform:translateX(0)}to{opacity:1;transform:translateX(592px)}}
+@keyframes pulse{50%{opacity:.25}}
+@keyframes led{0%{opacity:1}5%{opacity:.15}10%{opacity:1}15%{opacity:.15}20%{opacity:1}}
+@media (prefers-reduced-motion:reduce){.u{animation-name:fade}.d,.p,.cur,.cursor,.pulse,.led{animation:none}}
+</style>
+  <rect width="460" height="240" fill="{{palette.background}}" />
+  <g class="f" style="animation-delay:0.34s">
+    <rect x="1" y="1" width="458" height="42" fill="{{palette.panel}}" />
+  </g>
+  <path class="d" pathLength="1" style="animation-delay:0.24s;animation-duration:.9s" d="M0.8 0.8H459.2V239.2H0.8Z" stroke="{{palette.border}}" stroke-width="1.5" fill="none" />
+  <g class="u" style="animation-delay:0.39s">
+    <text class="pulse" x="34" y="28" width="10" height="10" fill="{{palette.accent}}" font-family="display.ttf" font-size="18" data-max-width="260">{{asset.texts.title}}</text>
+    <path fill="{{palette.text}}" d="M42 22.8H37.8V28H35.2V15.4H37.8V20.5H42V15.4H44.5V28H42V22.8ZM47 28V15.4H54.8V17.7H49.6V20.5H54V22.8H49.6V25.8H54.8V28H47ZM63.9 28 63.1 24.9H59.3L58.5 28H56L59.6 15.4H62.9L66.4 28H63.9ZM61.7 20 61.3 17.8H61L60.6 20L59.9 22.9H62.5L61.7 20ZM68 28V15.4H70.6V25.8H74.8V28H68ZM80.1 17.7V28H77.5V17.7H74.5V15.4H83.1V17.7H80.1ZM91.5 22.8H87.4V28H84.8V15.4H87.4V20.5H91.5V15.4H94.1V28H91.5V22.8ZM96.6 15.4H102.1Q103.7 15.4 104.4 16.3Q105.1 17.2 105.1 18.7Q105.1 19.5 104.9 20Q104.7 20.5 104.4 20.8Q104.1 21.1 103.8 21.2Q103.4 21.3 103 21.4V21.6Q103.4 21.6 103.9 21.8Q104.3 21.9 104.7 22.3Q105.1 22.6 105.3 23.1Q105.6 23.7 105.6 24.4Q105.6 25.2 105.4 25.8Q105.2 26.5 104.8 27Q104.4 27.4 103.9 27.7Q103.3 28 102.7 28H96.6V15.4ZM99.1 25.8H101.9Q102.4 25.8 102.6 25.6Q102.9 25.3 102.9 24.7V23.8Q102.9 23.2 102.6 23Q102.4 22.7 101.9 22.7H99.1V25.8ZM99.1 20.6H101.5Q102 20.6 102.2 20.4Q102.5 20.1 102.5 19.5V18.7Q102.5 18.1 102.2 17.9Q102 17.6 101.5 17.6H99.1V20.6ZM109.7 28V23.3L105.9 15.4H108.7L110.9 20.6H111.2L113.4 15.4H116.2L112.3 23.3V28H109.7ZM122.3 17.7V28H119.8V17.7H116.7V15.4H125.3V17.7H122.3ZM127 28V15.4H134.8V17.7H129.6V20.5H134V22.8H129.6V25.8H134.8V28H127Z" />
+  </g>
+  <g class="f" style="animation-delay:0.44s">
+    <text fill="{{palette.muted}}" x="446" y="27" font-family="mono.ttf" font-size="10" text-anchor="end" data-max-width="150" data-overflow="ellipsis">{{asset.texts.reference}}</text>
+  </g>
+  <path class="d" pathLength="1" style="animation-delay:0.39s" d="M1 43L459 43" stroke="{{palette.border}}" stroke-width="1" fill="none" />
+  <g class="u" style="animation-delay:0.49s">
+    <text fill="{{palette.muted}}" x="14" y="63" font-family="mono.ttf" font-size="10">PLATAFORMA</text>
+    <text fill="{{palette.text}}" x="124" y="63" font-family="sans.ttf" font-size="13.5" data-max-width="320">{{asset.texts.platform}}</text>
+  </g>
+  <path class="d" pathLength="1" style="animation-delay:0.49s" d="M1 73L459 73" stroke="{{palette.border}}" stroke-width="1" fill="none" />
+  <g class="u" style="animation-delay:0.54s">
+    <text fill="{{palette.muted}}" x="14" y="93" font-family="mono.ttf" font-size="10">STACK</text>
+    <text fill="{{palette.text}}" x="124" y="93" font-family="mono.ttf" font-size="12" data-max-width="320">{{asset.texts.stack}}</text>
+  </g>
+  <path class="d" pathLength="1" style="animation-delay:0.54s" d="M1 103L459 103" stroke="{{palette.border}}" stroke-width="1" fill="none" />
+  <g class="u" style="animation-delay:0.59s">
+    <text fill="{{palette.muted}}" x="14" y="123" font-family="mono.ttf" font-size="10">ESTADO</text>
+    <text fill="{{palette.accent_text}}" x="124" y="123" font-family="mono-medium.ttf" font-size="11" data-max-width="320">{{asset.texts.state}}</text>
+  </g>
+  <path class="d" pathLength="1" style="animation-delay:0.59s" d="M1 133L459 133" stroke="{{palette.border}}" stroke-width="1" fill="none" />
+  <path class="d" pathLength="1" style="animation-delay:0.49s" d="M110 43L110 133" stroke="{{palette.border}}" stroke-width="1" fill="none" />
+  <g class="u" style="animation-delay:0.69s">
+    <text fill="{{palette.text}}" x="14" y="159" font-family="sans.ttf" font-size="14" data-max-width="432">{{asset.texts.description_1}}</text>
+    <text fill="{{palette.text}}" x="14" y="180" font-family="sans.ttf" font-size="14" data-max-width="432">{{asset.texts.description_2}}</text>
+  </g>
+  <path class="d" pathLength="1" style="animation-delay:0.74s" d="M1 206L459 206" stroke="{{palette.border}}" stroke-width="1" fill="none" />
+  <g class="u" style="animation-delay:0.79s">
+    <text fill="{{palette.muted}}" x="14" y="227" font-family="mono.ttf" font-size="10" data-max-width="432">{{asset.texts.note}}</text>
+  </g>
+</svg>

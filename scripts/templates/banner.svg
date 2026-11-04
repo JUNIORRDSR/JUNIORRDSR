@@ -1,0 +1,156 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="370" viewBox="0 0 960 370" role="img" aria-label="{{asset.alt}}">
+  <title>{{asset.alt}}</title>
+  <style>
+.u{animation:rise .3s cubic-bezier(.23,1,.32,1) backwards}
+.f{animation:fade .3s cubic-bezier(.23,1,.32,1) backwards}
+.d{stroke-dasharray:1;animation:draw .7s cubic-bezier(.23,1,.32,1) backwards}
+.p{stroke-dasharray:1;animation:draw .9s cubic-bezier(.77,0,.175,1) backwards}
+.cur{transform-box:fill-box;transform-origin:right;transform:scaleX(0);animation:curtain .7s cubic-bezier(.23,1,.32,1) backwards}
+.cursor{opacity:0;animation:cursor .7s cubic-bezier(.23,1,.32,1) backwards}
+.pulse{animation:pulse 2.4s cubic-bezier(.77,0,.175,1) infinite}
+.led{animation:led 4s steps(1,end) 3s infinite}
+@keyframes rise{from{opacity:0;transform:translateY(8px)}}
+@keyframes fade{from{opacity:0}}
+@keyframes draw{from{stroke-dashoffset:1}}
+@keyframes curtain{from{transform:scaleX(1)}}
+@keyframes cursor{from{opacity:1;transform:translateX(0)}to{opacity:1;transform:translateX(592px)}}
+@keyframes pulse{50%{opacity:.25}}
+@keyframes led{0%{opacity:1}5%{opacity:.15}10%{opacity:1}15%{opacity:.15}20%{opacity:1}}
+@media (prefers-reduced-motion:reduce){.u{animation-name:fade}.d,.p,.cur,.cursor,.pulse,.led{animation:none}}
+</style>
+  <defs>
+    <pattern id="r" width="16" height="16" patternUnits="userSpaceOnUse">
+      <path d="M16 0H0V16" fill="none" stroke="{{palette.grid}}" stroke-width="1" />
+    </pattern>
+  </defs>
+  <rect width="960" height="370" fill="{{palette.background}}" />
+  <g class="f" style="animation-delay:0.00s">
+    <text fill="{{palette.muted}}" x="2" y="18" font-family="mono.ttf" font-size="11">HOJA TÉCNICA</text>
+  </g>
+  <g class="f" style="animation-delay:0.05s">
+    <text fill="{{palette.muted}}" x="480" y="18" font-family="mono.ttf" font-size="11" text-anchor="middle">PERFIL DE GITHUB: {{profile.github_user}}</text>
+  </g>
+  <g class="f" style="animation-delay:0.10s">
+    <text fill="{{palette.muted}}" x="958" y="18" font-family="mono.ttf" font-size="11" text-anchor="end">REVISIÓN {{profile.revision}}</text>
+  </g>
+  <path class="d" pathLength="1" style="animation-delay:0.00s" d="M0 30L960 30" stroke="{{palette.border}}" stroke-width="1" fill="none" />
+  <g class="f" style="animation-delay:0.25s">
+    <rect x="2" y="45" width="956" height="33" fill="{{palette.panel}}" />
+  </g>
+  <path class="d" pathLength="1" style="animation-delay:0.10s;animation-duration:.9s" d="M1 44H959V368H1Z" stroke="{{palette.text}}" stroke-width="2" fill="none" />
+  <path class="d" pathLength="1" style="animation-delay:0.25s" d="M1 78L959 78" stroke="{{palette.text}}" stroke-width="1.5" fill="none" />
+  <g class="u" style="animation-delay:0.30s">
+    <text fill="{{palette.text}}" x="16" y="66" font-family="mono-medium.ttf" font-size="12">CUADRO DE ROTULACIÓN</text>
+  </g>
+  <g class="u" style="animation-delay:0.35s">
+    <rect class="pulse" x="824.5" y="57" width="8" height="8" fill="{{palette.accent}}" />
+    <text fill="{{palette.accent_text}}" x="944" y="66" font-family="mono-medium.ttf" font-size="12" text-anchor="end">ESTADO: VIGENTE</text>
+  </g>
+  <path class="d" pathLength="1" style="animation-delay:0.35s" d="M600 78L600 368" stroke="{{palette.text}}" stroke-width="1.5" fill="none" />
+  <g class="f" style="animation-delay:0.40s">
+    <text fill="{{palette.muted}}" x="16" y="100" font-family="mono.ttf" font-size="10">NOMBRE</text>
+  </g>
+  <text fill="{{palette.text}}" x="13" y="160" font-family="display.ttf" font-size="60" data-max-width="570">{{profile.name}}</text>
+  <rect class="cur" style="animation-delay:.45s" x="4" y="104" width="592" height="66" fill="{{palette.background}}" />
+  <rect class="cursor" style="animation-delay:.45s" x="3" y="108" width="2.5" height="58" fill="{{palette.accent}}" />
+  <g class="u" style="animation-delay:0.70s">
+    <text fill="{{palette.accent_text}}" x="16" y="186" font-family="mono-medium.ttf" font-size="13" data-max-width="570">{{asset.texts.subtitle}}</text>
+  </g>
+  <path class="d" pathLength="1" style="animation-delay:0.50s" d="M1 196L600 196" stroke="{{palette.border}}" stroke-width="1" fill="none" />
+  <path class="d" pathLength="1" style="animation-delay:0.60s" d="M300 196L300 368" stroke="{{palette.border}}" stroke-width="1" fill="none" />
+  <path class="d" pathLength="1" style="animation-delay:0.55s" d="M1 282L600 282" stroke="{{palette.border}}" stroke-width="1" fill="none" />
+  <g class="u" style="animation-delay:0.75s">
+    <text fill="{{palette.muted}}" x="16" y="218" font-family="mono.ttf" font-size="10">EXPERIENCIA</text>
+    <text fill="{{palette.text}}" x="16" y="246" font-family="sans.ttf" font-size="16" data-max-width="270">{{asset.texts.experience_title}}</text>
+    <text fill="{{palette.muted}}" x="16" y="267" font-family="sans.ttf" font-size="13" data-max-width="270">{{asset.texts.experience_period}}</text>
+  </g>
+  <g class="u" style="animation-delay:0.80s">
+    <text fill="{{palette.muted}}" x="316" y="218" font-family="mono.ttf" font-size="10">UBICACIÓN</text>
+    <text fill="{{palette.text}}" x="316" y="246" font-family="sans.ttf" font-size="16" data-max-width="270">{{profile.location}}</text>
+    <text fill="{{palette.muted}}" x="316" y="267" font-family="sans.ttf" font-size="14" data-max-width="270">{{profile.region}}</text>
+  </g>
+  <g class="u" style="animation-delay:0.85s">
+    <text fill="{{palette.muted}}" x="16" y="304" font-family="mono.ttf" font-size="10">FORMACIÓN</text>
+    <text fill="{{palette.text}}" x="16" y="332" font-family="sans.ttf" font-size="16" data-max-width="270">{{asset.texts.education}}</text>
+    <text fill="{{palette.muted}}" x="16" y="354" font-family="sans.ttf" font-size="14" data-max-width="270">{{asset.texts.university}}</text>
+  </g>
+  <g class="u" style="animation-delay:0.90s">
+    <text fill="{{palette.muted}}" x="316" y="304" font-family="mono.ttf" font-size="10">REVISIÓN</text>
+    <text fill="{{palette.text}}" x="316" y="332" font-family="mono.ttf" font-size="14">REV. {{profile.revision}}</text>
+    <text fill="{{palette.accent_text}}" x="316" y="354" font-family="mono-medium.ttf" font-size="12">ESCALA 1:1</text>
+  </g>
+  <g class="f" style="animation-delay:0.45s">
+    <text fill="{{palette.muted}}" x="616" y="100" font-family="mono.ttf" font-size="11">FIGURA ISOMÉTRICA</text>
+    <text fill="{{palette.text}}" x="944" y="100" font-family="mono-medium.ttf" font-size="11" text-anchor="end">FIG. 01</text>
+  </g>
+  <path class="d" pathLength="1" style="animation-delay:0.45s" d="M600 112L959 112" stroke="{{palette.border}}" stroke-width="1" fill="none" />
+  <g class="f" style="animation-delay:0.55s">
+    <rect x="601" y="113" width="357" height="222" fill="url(#r)" />
+  </g>
+  <path class="d" pathLength="1" style="animation-delay:0.50s" d="M600 336L959 336" stroke="{{palette.border}}" stroke-width="1" fill="none" />
+  <g class="f" style="animation-delay:0.60s">
+    <text fill="{{palette.muted}}" x="616" y="356" font-family="mono.ttf" font-size="10">MÓVIL + NUBE + VISIÓN POR COMPUTADOR</text>
+  </g>
+  <path class="p" pathLength="1" style="animation-delay:0.80s" d="M716 132L768 162" stroke="{{palette.text}}" stroke-width="1.4" fill="none" />
+  <path class="p" pathLength="1" style="animation-delay:0.84s" d="M768 162L726.4 186" stroke="{{palette.text}}" stroke-width="1.4" fill="none" />
+  <path class="p" pathLength="1" style="animation-delay:0.88s" d="M726.4 186L674.4 156" stroke="{{palette.text}}" stroke-width="1.4" fill="none" />
+  <path class="p" pathLength="1" style="animation-delay:0.92s" d="M674.4 156L716 132" stroke="{{palette.text}}" stroke-width="1.4" fill="none" />
+  <path class="p" pathLength="1" style="animation-delay:0.96s" d="M768 266L768 162" stroke="{{palette.text}}" stroke-width="1.4" fill="none" />
+  <path class="p" pathLength="1" style="animation-delay:1.00s" d="M726.4 290L726.4 186" stroke="{{palette.text}}" stroke-width="1.4" fill="none" />
+  <path class="p" pathLength="1" style="animation-delay:1.04s" d="M674.4 260L674.4 156" stroke="{{palette.text}}" stroke-width="1.4" fill="none" />
+  <path class="p" pathLength="1" style="animation-delay:1.08s" d="M768 266L726.4 290" stroke="{{palette.text}}" stroke-width="1.4" fill="none" />
+  <path class="p" pathLength="1" style="animation-delay:1.12s" d="M674.4 260L726.4 290" stroke="{{palette.text}}" stroke-width="1.4" fill="none" />
+  <path class="p" pathLength="1" style="animation-delay:1.16s" d="M681.4 176L709.1 192" stroke="{{palette.text}}" stroke-width="1.1" fill="none" />
+  <path class="p" pathLength="1" style="animation-delay:1.20s" d="M681.4 192L709.1 208" stroke="{{palette.text}}" stroke-width="1.1" fill="none" />
+  <path class="p" pathLength="1" style="animation-delay:1.24s" d="M681.4 208L709.1 224" stroke="{{palette.text}}" stroke-width="1.1" fill="none" />
+  <path class="p" pathLength="1" style="animation-delay:1.28s" d="M681.4 224L709.1 240" stroke="{{palette.text}}" stroke-width="1.1" fill="none" />
+  <g class="f" style="animation-delay:1.32s">
+    <circle class="led" cx="717.7" cy="197" r="2.6" fill="{{palette.accent}}" />
+  </g>
+  <path class="p" pathLength="1" style="animation-delay:1.32s" d="M845.9 247L878.8 266" stroke="{{palette.text}}" stroke-width="1.4" fill="none" />
+  <path class="p" pathLength="1" style="animation-delay:1.36s" d="M878.8 266L818.2 301" stroke="{{palette.text}}" stroke-width="1.4" fill="none" />
+  <path class="p" pathLength="1" style="animation-delay:1.40s" d="M818.2 301L785.3 282" stroke="{{palette.text}}" stroke-width="1.4" fill="none" />
+  <path class="p" pathLength="1" style="animation-delay:1.44s" d="M785.3 282L845.9 247" stroke="{{palette.text}}" stroke-width="1.4" fill="none" />
+  <path class="p" pathLength="1" style="animation-delay:1.48s" d="M878.8 272L878.8 266" stroke="{{palette.text}}" stroke-width="1.4" fill="none" />
+  <path class="p" pathLength="1" style="animation-delay:1.52s" d="M818.2 307L818.2 301" stroke="{{palette.text}}" stroke-width="1.4" fill="none" />
+  <path class="p" pathLength="1" style="animation-delay:1.56s" d="M785.3 288L785.3 282" stroke="{{palette.text}}" stroke-width="1.4" fill="none" />
+  <path class="p" pathLength="1" style="animation-delay:1.60s" d="M878.8 272L818.2 307" stroke="{{palette.text}}" stroke-width="1.4" fill="none" />
+  <path class="p" pathLength="1" style="animation-delay:1.64s" d="M785.3 288L818.2 307" stroke="{{palette.text}}" stroke-width="1.4" fill="none" />
+  <path class="p" pathLength="1" style="animation-delay:1.68s" d="M844.2 252L870.2 267" stroke="{{palette.text}}" stroke-width="1" fill="none" />
+  <path class="p" pathLength="1" style="animation-delay:1.72s" d="M870.2 267L819.9 296" stroke="{{palette.text}}" stroke-width="1" fill="none" />
+  <path class="p" pathLength="1" style="animation-delay:1.76s" d="M819.9 296L793.9 281" stroke="{{palette.text}}" stroke-width="1" fill="none" />
+  <path class="p" pathLength="1" style="animation-delay:1.80s" d="M793.9 281L844.2 252" stroke="{{palette.text}}" stroke-width="1" fill="none" />
+  <g transform="translate(858 150) rotate(-18)">
+    <path class="p" pathLength="1" style="animation-delay:1.84s" d="M0 0Q22 -26 64 -22Q46 8 0 0Z" fill="none" stroke="{{palette.text}}" stroke-width="1.4" />
+    <path class="p" pathLength="1" style="animation-delay:2.04s" d="M0 0L60 -20M14 -4.6L22 -13.6M14 -4.6L23 1.4M26 -8.6L34 -17.6M26 -8.6L35 -2.6M38 -12.5L46 -21.5M38 -12.5L47 -6.5" fill="none" stroke="{{palette.text}}" stroke-width="1" />
+  </g>
+  <g class="f" style="animation-delay:2.08s">
+    <circle cx="716" cy="132" r="2" fill="{{palette.text}}" />
+  </g>
+  <path class="p" pathLength="1" style="animation-delay:2.08s" d="M716 132L646 132" stroke="{{palette.muted}}" stroke-width="0.8" fill="none" />
+  <g class="u" style="animation-delay:2.43s">
+    <text fill="{{palette.muted}}" x="621" y="136" font-family="mono.ttf" font-size="11">API</text>
+  </g>
+  <g class="f" style="animation-delay:2.20s">
+    <circle cx="842.4" cy="283" r="2" fill="{{palette.text}}" />
+  </g>
+  <path class="p" pathLength="1" style="animation-delay:2.20s" d="M842.4 283L906 296" stroke="{{palette.muted}}" stroke-width="0.8" fill="none" />
+  <g class="u" style="animation-delay:2.55s">
+    <text fill="{{palette.muted}}" x="912" y="300" font-family="mono.ttf" font-size="11">APP</text>
+  </g>
+  <g class="f" style="animation-delay:2.32s">
+    <circle cx="884" cy="146" r="2" fill="{{palette.text}}" />
+  </g>
+  <path class="p" pathLength="1" style="animation-delay:2.32s" d="M884 146L906 192" stroke="{{palette.muted}}" stroke-width="0.8" fill="none" />
+  <g class="u" style="animation-delay:2.67s">
+    <text fill="{{palette.muted}}" x="912" y="196" font-family="mono.ttf" font-size="11">VISIÓN</text>
+  </g>
+  <g class="f" style="animation-delay:0.80s">
+    <path d="M632 316L647.6 325" stroke="{{palette.muted}}" stroke-width="1" fill="none" />
+    <path fill="{{palette.muted}}" d="M651.1 329 652.9 326.6 651.2 324.4H652L652.7 325.3L653.3 326.1H653.3L653.9 325.3L654.6 324.4H655.4L653.7 326.6L655.4 329H654.6L653.8 327.9L653.3 327.2H653.2L652.7 327.9L652 329H651.1Z" />
+    <path d="M632 316L616.4 325" stroke="{{palette.muted}}" stroke-width="1" fill="none" />
+    <path fill="{{palette.muted}}" d="M612.6 324.4H613.3L611 330Q610.9 330.2 610.9 330.4Q610.8 330.5 610.6 330.6Q610.5 330.7 610.3 330.8Q610.1 330.8 609.8 330.8H609.2V330.2H610.2L610.8 328.9L608.9 324.4H609.6L610.4 326.3L611.1 328.1H611.1L611.8 326.3L612.6 324.4Z" />
+    <path d="M632 316L632 298" stroke="{{palette.muted}}" stroke-width="1" fill="none" />
+    <path fill="{{palette.muted}}" d="M629.8 295V294.3L632.8 291H629.9V290.4H633.5V291L630.5 294.4H633.6V295H629.8Z" />
+  </g>
+</svg>

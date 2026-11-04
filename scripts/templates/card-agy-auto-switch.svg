@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="460" height="240" viewBox="0 0 460 240" role="img" aria-label="{{asset.alt}}">
+  <title>{{asset.alt}}</title>
+  <style>
+.u{animation:rise .3s cubic-bezier(.23,1,.32,1) backwards}
+.f{animation:fade .3s cubic-bezier(.23,1,.32,1) backwards}
+.d{stroke-dasharray:1;animation:draw .7s cubic-bezier(.23,1,.32,1) backwards}
+.p{stroke-dasharray:1;animation:draw .9s cubic-bezier(.77,0,.175,1) backwards}
+.cur{transform-box:fill-box;transform-origin:right;transform:scaleX(0);animation:curtain .7s cubic-bezier(.23,1,.32,1) backwards}
+.cursor{opacity:0;animation:cursor .7s cubic-bezier(.23,1,.32,1) backwards}
+.pulse{animation:pulse 2.4s cubic-bezier(.77,0,.175,1) infinite}
+.led{animation:led 4s steps(1,end) 3s infinite}
+@keyframes rise{from{opacity:0;transform:translateY(8px)}}
+@keyframes fade{from{opacity:0}}
+@keyframes draw{from{stroke-dashoffset:1}}
+@keyframes curtain{from{transform:scaleX(1)}}
+@keyframes cursor{from{opacity:1;transform:translateX(0)}to{opacity:1;transform:translateX(592px)}}
+@keyframes pulse{50%{opacity:.25}}
+@keyframes led{0%{opacity:1}5%{opacity:.15}10%{opacity:1}15%{opacity:.15}20%{opacity:1}}
+@media (prefers-reduced-motion:reduce){.u{animation-name:fade}.d,.p,.cur,.cursor,.pulse,.led{animation:none}}
+</style>
+  <rect width="460" height="240" fill="{{palette.background}}" />
+  <g class="f" style="animation-delay:0.50s">
+    <rect x="1" y="1" width="458" height="42" fill="{{palette.panel}}" />
+  </g>
+  <path class="d" pathLength="1" style="animation-delay:0.40s;animation-duration:.9s" d="M0.8 0.8H459.2V239.2H0.8Z" stroke="{{palette.border}}" stroke-width="1.5" fill="none" />
+  <g class="u" style="animation-delay:0.55s">
+    <text x="34" y="28" width="10" height="10" fill="{{palette.accent}}" font-family="display.ttf" font-size="18" data-max-width="260">{{asset.texts.title}}</text>
+    <path fill="{{palette.text}}" d="M42.2 28 41.5 24.9H37.6L36.8 28H34.4L37.9 15.4H41.2L44.8 28H42.2ZM40 20 39.7 17.8H39.4L39 20L38.2 22.9H40.8L40 20ZM53.2 26H52.9Q52.7 27 52 27.6Q51.3 28.2 50 28.2Q49.1 28.2 48.3 27.9Q47.5 27.5 46.9 26.8Q46.3 26 45.9 24.8Q45.6 23.6 45.6 21.8Q45.6 20 45.9 18.7Q46.3 17.5 46.9 16.7Q47.6 15.9 48.5 15.6Q49.4 15.2 50.5 15.2Q52.2 15.2 53.3 15.9Q54.5 16.7 55.1 18.1L53 19.3Q52.7 18.5 52.1 18Q51.5 17.5 50.5 17.5Q49.5 17.5 48.9 18.1Q48.3 18.8 48.3 20.1V23.4Q48.3 24.7 48.9 25.3Q49.5 25.9 50.6 25.9Q51.6 25.9 52.2 25.4Q52.8 24.9 52.8 24V23.2H50.8V21.1H55.3V28H53.2V26ZM59.6 28V23.3L55.7 15.4H58.6L60.8 20.6H61.1L63.2 15.4H66L62.2 23.3V28H59.6ZM65.8 23.7V21.3H70.7V23.7H65.8ZM79.4 28 78.7 24.9H74.8L74 28H71.6L75.1 15.4H78.4L82 28H79.4ZM77.3 20 76.9 17.8H76.6L76.2 20L75.4 22.9H78L77.3 20ZM85.7 15.4V23.6Q85.7 24.8 86.1 25.4Q86.6 25.9 87.7 25.9Q88.8 25.9 89.2 25.4Q89.6 24.8 89.6 23.6V15.4H92.2V23.2Q92.2 24.6 91.9 25.5Q91.7 26.5 91.2 27.1Q90.6 27.7 89.8 27.9Q88.9 28.2 87.7 28.2Q86.4 28.2 85.5 27.9Q84.7 27.7 84.1 27.1Q83.6 26.5 83.4 25.5Q83.1 24.6 83.1 23.2V15.4H85.7ZM99.4 17.7V28H96.8V17.7H93.8V15.4H102.4V17.7H99.4ZM108.1 28.2Q107 28.2 106.1 27.9Q105.2 27.5 104.5 26.7Q103.9 25.9 103.5 24.7Q103.2 23.5 103.2 21.7Q103.2 20 103.5 18.7Q103.9 17.5 104.5 16.7Q105.2 15.9 106.1 15.6Q107 15.2 108.1 15.2Q109.3 15.2 110.2 15.6Q111.1 15.9 111.8 16.7Q112.4 17.5 112.8 18.7Q113.1 20 113.1 21.7Q113.1 23.5 112.8 24.7Q112.4 25.9 111.8 26.7Q111.1 27.5 110.2 27.9Q109.3 28.2 108.1 28.2ZM108.1 25.9Q109.2 25.9 109.8 25.3Q110.4 24.7 110.4 23.4V20.1Q110.4 18.8 109.8 18.1Q109.2 17.5 108.1 17.5Q107.1 17.5 106.5 18.1Q105.9 18.8 105.9 20.1V23.4Q105.9 24.7 106.5 25.3Q107.1 25.9 108.1 25.9ZM115 23.7V21.3H119.9V23.7H115ZM125.3 28.2Q122.5 28.2 120.8 26.2L122.5 24.6Q123.6 26 125.3 26Q127.1 26 127.1 24.4Q127.1 23.7 126.8 23.4Q126.5 23 125.8 22.9L124.6 22.7Q122.9 22.3 122.1 21.4Q121.3 20.5 121.3 19Q121.3 17.1 122.3 16.2Q123.4 15.2 125.5 15.2Q128.2 15.2 129.6 16.9L127.9 18.6Q127.4 18 126.9 17.7Q126.3 17.5 125.5 17.5Q124.6 17.5 124.2 17.8Q123.8 18.1 123.8 18.8Q123.8 19.5 124.1 19.8Q124.4 20.1 125.1 20.3L126.2 20.5Q127.2 20.7 127.8 21Q128.5 21.2 128.9 21.7Q129.3 22.1 129.5 22.7Q129.7 23.3 129.7 24.1Q129.7 26.1 128.6 27.2Q127.4 28.2 125.3 28.2ZM133.3 28 130.7 15.4H133.3L134.5 22.4L134.8 25.2H135.1L135.4 22.5L136.8 15.4H139.7L141.1 22.5L141.4 25.2H141.7L142.1 22.4L143.2 15.4H145.7L143 28H140.1L138.7 20.8L138.3 18.3H138L137.7 20.8L136.2 28H133.3ZM147 28V26H148.4V17.5H147V15.4H152.5V17.5H151V26H152.5V28H147ZM159.3 17.7V28H156.7V17.7H153.7V15.4H162.3V17.7H159.3ZM168.1 28.2Q167 28.2 166 27.9Q165.1 27.5 164.5 26.8Q163.8 26 163.4 24.8Q163.1 23.6 163.1 21.8Q163.1 20 163.4 18.8Q163.8 17.5 164.5 16.8Q165.1 16 166 15.6Q167 15.2 168.1 15.2Q169.8 15.2 170.8 15.9Q171.8 16.7 172.4 18.2L170.2 19.3Q170 18.9 169.9 18.6Q169.8 18.2 169.5 18Q169.3 17.8 169 17.6Q168.6 17.5 168.1 17.5Q167 17.5 166.4 18.1Q165.8 18.8 165.8 20.1V23.4Q165.8 24.7 166.4 25.3Q167 25.9 168.1 25.9Q168.6 25.9 169 25.8Q169.3 25.6 169.6 25.4Q169.8 25.1 170 24.8Q170.2 24.4 170.3 24L172.4 25.2Q172.1 25.9 171.7 26.5Q171.3 27 170.8 27.4Q170.3 27.8 169.6 28Q168.9 28.2 168.1 28.2ZM180.8 22.8H176.7V28H174.1V15.4H176.7V20.5H180.8V15.4H183.4V28H180.8V22.8Z" />
+  </g>
+  <g class="f" style="animation-delay:0.60s">
+    <text fill="{{palette.muted}}" x="446" y="27" font-family="mono.ttf" font-size="10" text-anchor="end" data-max-width="150" data-overflow="ellipsis">{{asset.texts.reference}}</text>
+  </g>
+  <path class="d" pathLength="1" style="animation-delay:0.55s" d="M1 43L459 43" stroke="{{palette.border}}" stroke-width="1" fill="none" />
+  <g class="u" style="animation-delay:0.65s">
+    <text fill="{{palette.muted}}" x="14" y="63" font-family="mono.ttf" font-size="10">PLATAFORMA</text>
+    <text fill="{{palette.text}}" x="124" y="63" font-family="sans.ttf" font-size="13.5" data-max-width="320">{{asset.texts.platform}}</text>
+  </g>
+  <path class="d" pathLength="1" style="animation-delay:0.65s" d="M1 73L459 73" stroke="{{palette.border}}" stroke-width="1" fill="none" />
+  <g class="u" style="animation-delay:0.70s">
+    <text fill="{{palette.muted}}" x="14" y="93" font-family="mono.ttf" font-size="10">STACK</text>
+    <text fill="{{palette.text}}" x="124" y="93" font-family="mono.ttf" font-size="12" data-max-width="320">{{asset.texts.stack}}</text>
+  </g>
+  <path class="d" pathLength="1" style="animation-delay:0.70s" d="M1 103L459 103" stroke="{{palette.border}}" stroke-width="1" fill="none" />
+  <g class="u" style="animation-delay:0.75s">
+    <text fill="{{palette.muted}}" x="14" y="123" font-family="mono.ttf" font-size="10">ESTADO</text>
+    <text fill="{{palette.accent_text}}" x="124" y="123" font-family="mono-medium.ttf" font-size="11" data-max-width="320">{{asset.texts.state}}</text>
+  </g>
+  <path class="d" pathLength="1" style="animation-delay:0.75s" d="M1 133L459 133" stroke="{{palette.border}}" stroke-width="1" fill="none" />
+  <path class="d" pathLength="1" style="animation-delay:0.65s" d="M110 43L110 133" stroke="{{palette.border}}" stroke-width="1" fill="none" />
+  <g class="u" style="animation-delay:0.85s">
+    <text fill="{{palette.text}}" x="14" y="159" font-family="sans.ttf" font-size="14" data-max-width="432">{{asset.texts.description_1}}</text>
+    <text fill="{{palette.text}}" x="14" y="180" font-family="sans.ttf" font-size="14" data-max-width="432">{{asset.texts.description_2}}</text>
+  </g>
+  <path class="d" pathLength="1" style="animation-delay:0.90s" d="M1 206L459 206" stroke="{{palette.border}}" stroke-width="1" fill="none" />
+  <g class="u" style="animation-delay:0.95s">
+    <text fill="{{palette.muted}}" x="14" y="227" font-family="mono.ttf" font-size="10" data-max-width="432">{{asset.texts.note}}</text>
+  </g>
+</svg>
